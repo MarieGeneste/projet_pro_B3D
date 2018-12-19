@@ -1,19 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Acme');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+body {
+  overflow-x: hidden;
+  background-image: url('../ressources/society/bg.jpg');
+}
 .navbar,
 .panel-white .header {
   font-family: 'Acme', sans-serif;
 }
+
 .navbar.background {
   height: 300px;
-  background-image: url('http://localhost/pro/projet_pro_B3D/ressources/society/header_bg.png');
+  background-image: url('../ressources/society/header_bg.png');
   color: #fff !important;
-
+  transform: rotate(-2deg) scale(1.18);
 
 }
+
 .navbar .container {
-  position: relative;
-  top: -50px;
+  transform: rotate(2deg) scale(0.9);
 }
 .navbar .nav-item a {
   color: #fff !important;
@@ -25,15 +30,16 @@
 }
 
 .page-content {
-  border-top: 3px solid #ae2626;
-  border-bottom: 3px solid #ae2626;
   transform: rotate(-2deg) scale(1.03);
+  border-top: 3px solid #ae2626;
+  height: 500px;
   position: relative;
-  height: 100vh;
-  top: -15px;
-  background-image: url('http://localhost/pro/projet_pro_B3D/ressources/society/bg.jpg');
-  height: 100vh;
+  top: 35px;
+  position: relative;
+  height: 500px;
 }
+
+
 .page-content .container {
   transform: rotate(2deg);
   position: relative;
