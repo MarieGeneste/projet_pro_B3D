@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+.navbar.background {
+  height: 300px;
+  background-image: url('http://localhost/pro/projet_pro_B3D/ressources/society/header_bg.png');
+  color: #fff !important;
+
+}
+.navbar .container {
+  position: relative;
+  top: -50px;
+}
+.navbar .nav-item a {
+  color: #fff !important;
+}
+
+.page-content {
+  border-top: 3px solid #ae2626;
+  border-bottom: 3px solid #ae2626;
+  transform: rotate(-2deg) scale(1.03);
+  position: relative;
+  height: 100vh;
+  top: -15px;
+  background-image: url('http://localhost/pro/projet_pro_B3D/ressources/society/bg.jpg');
+  height: 100vh;
+}
+.page-content .container {
+  transform: rotate(2deg);
+  position: relative;
+  top: -50px;
+}
+
+.panel-white {
+  background-color:#fff;
+  position: relative;
+  top: 44px;
+}
+.panel-white .header{
+  color:#fff;
+  padding:10px;
+  background-color: #ae2626;
+  display: block;
+  position: relative;
+  top: -44px;
+
+}
+.panel-white > .content{
+  position: relative;
+  top: -44px;
+  padding: 10px;
+}

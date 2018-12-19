@@ -1,0 +1,86 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('../ressources/background_welcome.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  position: relative;
+  top: calc((100vh / 2) - 222px / 1.5);
+}
+
+.container > .logo {
+  text-align: center;
+}
+.container > .logo > img {
+  width: 200px;
+}
+.container > .logo::after {
+  content: "";
+  width: 100px;
+  height: 1px;
+  background-color: #fff;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+}
+.container > .logo::before {
+  content: "";
+  width: 100px;
+  height: 1px;
+  position: relative;
+  top: 15px;
+  background-color: #fff;
+  display: inline-block;
+}
+
+/* Menu Vertical (Langes)*/
+
+.menu {
+ text-align: center;
+  position: relative;
+  top: 80px;
+}
+
+.menu > .item {
+  color: #fff;
+  font-family: 'Acme', sans-serif;
+  display: inline-block;
+  padding: 0 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-in-out;
+  font-size: 18px;
+}
+
+.menu > .item:hover {
+  transition: all 0.3s ease-in-out;
+  background-color: white;
+  color: #441e0c;
+}
+
+
+@media (max-width: 768px){
+  .container > .logo img{
+    width: 150px;
+  }
+
+  .container > .logo::after {
+    width: 50px;
+
+  }
+  .container > .logo::before {
+    width: 50px;
+  }
+  .menu > .item {
+    display: block;
+    margin: 10px 0;
+    font-size: 22px;
+
+  }
+}
