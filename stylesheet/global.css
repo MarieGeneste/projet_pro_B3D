@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Acme');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
-body {
-  overflow-x: hidden;
-  background-image: url('../ressources/society/bg.jpg');
+body{
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
 }
 .navbar,
 .panel-white .header {
@@ -15,6 +16,11 @@ body {
   color: #fff !important;
   transform: rotate(-2deg) scale(1.18);
 
+}
+
+
+.footer .container {
+  transform: rotate(-2deg) scale(0.9);
 }
 
 .navbar .container {

@@ -1,3 +1,9 @@
+body {
+  overflow-x: hidden;
+  background-image: url('../ressources/society/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .page-content .portrait {
   width: 100%;
   height: 100%;
@@ -23,7 +29,7 @@
 /* Position the image container (needed to position the left and right arrows) */
 .container.caroussel {
  position: relative;
- width: 80%;
+ top: -20px;
 }
 .container.caroussel .row{
   margin-left: 0 !important;
@@ -62,7 +68,7 @@
 
 /* Position the "next button" to the right */
 .next {
- right: 0;
+ right: 15px;
  border-radius: 3px 0 0 3px;
  color:#fff;
 }

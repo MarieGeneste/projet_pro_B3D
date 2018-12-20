@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light background">
   <div class="container">
-  <a class="navbar-brand" href="#"><img src="http://localhost/pro/projet_pro_B3D/ressources/society/logo.png" /></a>
+  <a class="navbar-brand" href="#"><img src="http://localhost/projet_pro_B3D/ressources/society/logo.png" /></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
