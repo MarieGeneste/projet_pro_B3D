@@ -38,11 +38,11 @@ body{
 .page-content {
   transform: rotate(-2deg) scale(1.03);
   border-top: 3px solid #ae2626;
-  height: 500px;
+ 
   position: relative;
   top: 35px;
-  position: relative;
-  height: 500px;
+ 
+
 }
 
 
@@ -76,4 +76,69 @@ body{
   position: relative;
   top: -44px;
   padding: 10px;
+}
+/*--------footer-----------*/
+
+.obrez{
+   height: auto;
+   overflow: hidden;
+   position: relative;
+   bottom: -250px;
+   padding-top: 50px;
+
+ 
+
+}
+
+
+footer{
+  height: 250px;
+  background-image: url('../ressources/society/footer_bg.png');
+  
+  transform: rotate(-2deg) scale(1.18);
+ 
+  border-top: 3px solid #ae2626;
+  position: relative;
+ bottom: 0px;
+
+
+  
+
+}
+
+.cont1 {
+  
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+bottom: 200px;
+  
+
+}
+
+.contact_cont{
+  margin-bottom: 10px;
+}
+
+.wo_marg{
+  margin: 0px;
+  padding: 0px;
+}
+
+@media (max-width: 768px){
+  .obrez{bottom: -450px;}
+  .wo_marg{
+  padding-left: : 5px;
+  padding-right: 5px;
+  
+}
+}
+
+@media (min-width: 768px){
+  .obrez{bottom: -280px;}
+    .wo_marg{
+  padding-left: : 5px;
+  padding-right: 5px;
+  
+}
 }
