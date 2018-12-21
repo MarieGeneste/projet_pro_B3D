@@ -1,29 +1,51 @@
 @import url('https://fonts.googleapis.com/css?family=Acme');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+body{
+  margin: 0;
+  padding-bottom: 6rem;
+  min-height: 100%;
+}
+.navbar,
+.panel-white .header {
+  font-family: 'Acme', sans-serif;
+}
+
 .navbar.background {
   height: 300px;
-  background-image: url('http://localhost/pro/projet_pro_B3D/ressources/society/header_bg.png');
+  background-image: url('../ressources/society/header_bg.png');
   color: #fff !important;
+  transform: rotate(-2deg) scale(1.18);
 
 }
+
+
+.footer .container {
+  transform: rotate(-2deg) scale(0.9);
+}
+
 .navbar .container {
-  position: relative;
-  top: -50px;
+  transform: rotate(2deg) scale(0.9);
 }
 .navbar .nav-item a {
   color: #fff !important;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+.navbar .nav-item.active {
+  border-bottom: 2px solid #ae2626;
 }
 
 .page-content {
-  border-top: 3px solid #ae2626;
-  border-bottom: 3px solid #ae2626;
   transform: rotate(-2deg) scale(1.03);
+  border-top: 3px solid #ae2626;
+  height: 500px;
   position: relative;
-  height: 100vh;
-  top: -15px;
-  background-image: url('http://localhost/pro/projet_pro_B3D/ressources/society/bg.jpg');
-  height: 100vh;
+  top: 35px;
+  position: relative;
+  height: 500px;
 }
+
+
 .page-content .container {
   transform: rotate(2deg);
   position: relative;
@@ -35,14 +57,20 @@
   position: relative;
   top: 44px;
 }
-.panel-white .header{
+.panel-white .header {
   color:#fff;
   padding:10px;
   background-color: #ae2626;
   display: block;
   position: relative;
   top: -44px;
+  font-size:18px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 
+}
+.panel-white .header i{
+  margin: 0 5px;
 }
 .panel-white > .content{
   position: relative;
