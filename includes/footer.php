@@ -11,11 +11,11 @@
           <div class="row">
 
             <div class="col-md-12 wo_marg">
-              
+
               <div class="panel-white">
-              <div class="header"><i class="far fa-envelope"></i> Contact</div>
+              <div class="header" id="contact"><i class="far fa-envelope"></i> Contact</div>
               <div class="content">
-               
+
 
                  <div class="row">
                     <div class="col-md-3 col-sm-6">
@@ -51,11 +51,10 @@
                     </div>
                   </div>
 
-                
+
               </div>
             </div>
             </div>
           </div>
         </div>
       </div>
-

@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Acme');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+
+html
+{
+  max-height: 100%;
+}
+
 body{
   margin: 0;
-  padding-bottom: 6rem;
   min-height: 100%;
+  overflow-x: hidden;
+  background-image: url('../ressources/society/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .navbar,
 .panel-white .header {
@@ -38,10 +47,10 @@ body{
 .page-content {
   transform: rotate(-2deg) scale(1.03);
   border-top: 3px solid #ae2626;
- 
+
   position: relative;
   top: 35px;
- 
+
 
 }
 
@@ -86,7 +95,7 @@ body{
    bottom: -250px;
    padding-top: 50px;
 
- 
+
 
 }
 
@@ -94,31 +103,31 @@ body{
 footer{
   height: 250px;
   background-image: url('../ressources/society/footer_bg.png');
-  
+
   transform: rotate(-2deg) scale(1.18);
- 
+
   border-top: 3px solid #ae2626;
   position: relative;
  bottom: 0px;
 
 
-  
+
 
 }
 
 .cont1 {
-  
+
   margin: 0px;
   padding: 0px;
   position: relative;
 bottom: 200px;
-  
+
 
 }
 
-.contact_cont{
+/* .contact_cont{
   margin-bottom: 10px;
-}
+} */
 
 .wo_marg{
   margin: 0px;
@@ -130,7 +139,7 @@ bottom: 200px;
   .wo_marg{
   padding-left: : 5px;
   padding-right: 5px;
-  
+
 }
 }
 
@@ -139,6 +148,6 @@ bottom: 200px;
     .wo_marg{
   padding-left: : 5px;
   padding-right: 5px;
-  
+
 }
 }
