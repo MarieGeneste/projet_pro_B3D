@@ -29,7 +29,7 @@
           </div>
           </div>
           <div class="col-md-8">
-            <div class="panel-white">
+            <div class="panel-white about-me">
               <div class="header"><i class="far fa-clock"></i> Historique de la société</div>
               <div class="content">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dolore, vitae, aspernatur cum, mollitia error ratione ullam quae, in fugit harum voluptatem deleniti pariatur corrupti quisquam ipsam vero! Tenetur, impedit. <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.</div>

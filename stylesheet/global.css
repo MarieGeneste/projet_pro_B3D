@@ -11,7 +11,7 @@ body{
   min-height: 100%;
   overflow-x: hidden;
   background-image: url('../ressources/society/bg.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
 }
 .navbar,

@@ -1,6 +1,7 @@
-<div class="cont1">
-  <div class="container">
+<div class="cont1 col-md-12">
+
           <div class="row col-md-12">
+              <div class="container">
               <div class="panel-white">
               <div class="header" id="contact"><i class="far fa-envelope"></i> Contact</div>
               <div class="content">
@@ -57,6 +58,7 @@
 
       </div>
 
+<<<<<<< HEAD
 
 
 
@@ -80,4 +82,7 @@
   </div>
 
 
+=======
+<footer>
+>>>>>>> 1229b777154be27f2ed810da84152b644a103db0
 </footer>
