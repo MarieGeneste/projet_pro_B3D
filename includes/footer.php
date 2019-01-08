@@ -1,23 +1,12 @@
-<div class="obrez">
-<footer>
-</footer>
-</div>
-
-
 <div class="cont1">
-<div class="container">
-
-
-          <div class="row">
-
-            <div class="col-md-12 wo_marg">
-
+  <div class="container">
+          <div class="row col-md-12">
               <div class="panel-white">
               <div class="header" id="contact"><i class="far fa-envelope"></i> Contact</div>
               <div class="content">
 
 
-                 <div class="row">
+                 <div class="row wo_marg">
                     <div class="col-md-3 col-sm-6">
                       <div class="contact_cont">
                         <h2>Adresse</h2>
@@ -54,7 +43,8 @@
 
               </div>
             </div>
-            </div>
           </div>
         </div>
       </div>
+<footer>
+</footer>

@@ -14,9 +14,9 @@
     <!-- Chargement des scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/rellax/rellax.min.js"></script>
   </head>
-    <body>
-<body>
+    <body data-rellax-speed="7">
       
       <?php include('./includes/header.php');?>
       <!-- Contenu -->
@@ -93,7 +93,9 @@
       
 
       <?php include('./includes/footer.php');?>
-
-    </body>
+      <script>
+           var rellax = new Rellax('body', {
+  });
+      </script>
     </body>
 </html>
