@@ -47,7 +47,7 @@
 
                 <img src="ressources/produits/001.jpg">
                 <div class="text-cont">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.</div>
-                <botton class='prod-btn'>Nos produits chataigner</botton>
+                <botton class='prod-btn'><a href="details_produits.php">Nos produits chataigner</a></botton>
               </div>
 
               </div>

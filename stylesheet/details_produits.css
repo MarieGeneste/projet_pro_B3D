@@ -5,24 +5,50 @@
   top: 120px;
   margin-bottom: 50px;
 }
+
 .panel-white.mini .header {
   color:#fff;
   padding:7px;
-
-  top: -37px;
+  top: 0;
   font-size:16px;
   text-align: center;
 }
 
-a {
-    color: white;
+section .panel-white .header {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 5px;
 }
 
-a:hover
+.panel-white.mini
 {
-  color: white;
-  font-weight: bold;
+    padding-left: 0;
 }
+
+  img {
+    margin: 15px 0;
+    width: 100%;
+  }
+
+  img .imgIcon {
+    width: 10%;
+  }
+
+.imgProd
+{
+  padding-left: 0;
+}
+
+  section
+  {
+    margin: 15px;
+  }
+
+div .col-md-12
+ {
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+ }
 
 .panel-white.mini > .content{
 
