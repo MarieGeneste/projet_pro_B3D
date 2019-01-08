@@ -17,70 +17,70 @@
     <script src="assets/rellax/rellax.min.js"></script>
   </head>
     <body data-rellax-speed="7">
-      
+
       <?php include('./includes/header.php');?>
       <!-- Contenu -->
       <div class="page-content">
         <div class="container">
-          <div class="row">
+          <div class="row justify-content-center">
 
             <div class="col-md-12">
-              
+
               <div class="panel-white">
               <div class="header"><i class="fas fa-tree"></i></i> Produits</div>
               <div class="content">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dolore, vitae, aspernatur cum, mollitia error ratione ullam quae, in fugit harum voluptatem deleniti pariatur corrupti quisquam ipsam vero! Tenetur, impedit. <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.</div>
-                
+
               </div>
             </div>
             </div>
 
 
 
-           
 
-            <div class="col-md-4">
-              
+
+            <div class="col-lg-4 col-md-6">
+
               <div class="panel-white mini">
               <div class="header">Piquets chataigner</div>
               <div class="content">
-                
+
                 <img src="ressources/produits/001.jpg">
                 <div class="text-cont">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.</div>
                 <botton class='prod-btn'>Nos produits chataigner</botton>
               </div>
-                
+
               </div>
             </div>
 
-            <div class="col-md-4">
-              
+            <div class="col-lg-4 col-md-6">
+
               <div class="panel-white mini">
               <div class="header">Piquets accacia</div>
               <div class="content">
-                
+
                 <img src="ressources/produits/002.jpg">
                 <div class="text-cont">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.</div>
                 <botton class='prod-btn'>Nos produits accacia</botton>
               </div>
-                
+
               </div>
             </div>
 
-            <div class="col-md-4">
-              
+            <div class="col-lg-4 col-md-6">
+
               <div class="panel-white mini">
               <div class="header">Piquets pin</div>
               <div class="content">
-                
+
                 <img src="ressources/produits/003.jpg">
                 <div class="text-cont">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.</div>
                 <botton class='prod-btn'>Nos produits pin</botton>
               </div>
-                
+
               </div>
             </div>
-            
+
 
 
 
@@ -90,7 +90,7 @@
         </div>
         </div>
       </div>
-      
+
 
       <?php include('./includes/footer.php');?>
       <script>
