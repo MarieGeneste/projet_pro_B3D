@@ -1,7 +1,7 @@
 body {
   overflow-x: hidden;
   background-image: url('../ressources/society/bg.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-size: cover;
 }
 .page-content .portrait {
@@ -11,11 +11,14 @@ body {
 
 }
 .page-content .portrait img {
-  width: 80%;
+  width: 100%;
   border: 3px solid #fff;
 
 }
 
+.page-content .about-me{
+  height: calc(100% - 44px);
+}
 
 .panel-white > .content{
   position: relative;
