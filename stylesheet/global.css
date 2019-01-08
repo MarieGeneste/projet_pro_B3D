@@ -90,9 +90,10 @@ body{
 
 
 footer{
-  height: 250px;
+  /* height: 250px; */
   background-image: url('../ressources/society/footer_bg.png');
-  background-position: center;
+  background-position: bottom;
+
   background-size: cover;
   background-repeat: no-repeat;
   border-top: 3px solid #ae2626;
@@ -146,4 +147,60 @@ footer{
   padding-right: 5px;
 
 }
+}
+
+.copyright_cont{
+  padding-top: 210px;
+  color: #fff;
+  font-size: 0.8em;
+  padding-bottom: 20px;
+}
+
+.cr_text{
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+
+}
+
+
+
+.corr3dv{
+    text-transform: uppercase;
+}
+.green{
+  color: #7CFC00;
+}
+
+.site_dev_par{
+  text-align: right;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+@media (min-width: 768px){
+    .cr_text{padding-left: 40px;
+}
+
+
+
+}
+
+ @media (min-width: 576px) {
+    .cr_text{padding-left: 40px;}
+
+}
+
+@media (max-width: 768px){
+  .site_dev_par{display: none;}
+  .site_dev_par2{display: none;}
+  .cr_text{padding-left: 40px;}
+
+}
+
+@media (max-width: 576px) {
+.cr_text{padding-left: 40px;}
+
 }

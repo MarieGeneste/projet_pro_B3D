@@ -44,7 +44,40 @@
               </div>
             </div>
           </div>
-        </div>
+
+  </div>
+
+
+
+
+
+
+
+
+
       </div>
+
+
+
+
 <footer>
+
+  <div class="container copyright_cont">
+    <div class="row">
+      <div class="col-md-1 col-sm-1 col-1">
+        <a href="#"><img src='ressources/logo_mini.png'></a>
+      </div>
+      <div class="col-md-7 col-sm-11 col-11 cr_text">
+        B3D, <?php echo date("Y");?>. Tous droits réservés. <br>
+        Copies des documents uniquement s'il existe un lien indexé vers la source.
+      </div>
+      <div class="col-md-3  col-sm-11 site_dev_par">Site développé par:</div>
+      <div class="col-md-1 col-sm-1 site_dev_par2">
+        <a href="https://corrtech.fr/"><img src='ressources/corrd3v.png'></a>
+        <div class="corr3dv">coяr<span class="green">d3v</span></div>
+      </div>
+    </div>
+  </div>
+
+
 </footer>
