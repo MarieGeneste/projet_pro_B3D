@@ -6,6 +6,10 @@ html
   max-height: 100%;
 }
 
+h2{
+  font-size: 22px;
+}
+
 body{
   margin: 0;
   min-height: 100%;
@@ -15,7 +19,7 @@ body{
   background-size: cover;
 }
 .navbar,
-.panel-white .header {
+.panel-white .header, h2 {
   font-family: 'Acme', sans-serif;
 }
 
