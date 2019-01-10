@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
     <link rel="stylesheet" href="./stylesheet/global.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./stylesheet/details_produits.css">
     <!-- Chargement des scripts-->
@@ -38,78 +39,84 @@
 
 
 
-            <section>
+            <section class="d-flex justify-content-center row">
 
-              <div class="panel-white mini d-flex col-md-12">
+              <div class="panel-white mini d-flex col-md-10 col-8 row">
 
-                <div class="header col-md-1 d-flex">
-                  <div class="col-md-11 flex-column d-flex">
-                    <img class="imgIcon" src="images/icone_diametre.png" />
-                      <p>
-                        10 cm
-                      </p>
-                      <img class="imgIcon" src="images/icone_hauteur.png" />
-                      <p>
-                        100 cm
-                      </p>
-                    </div>
+                <div class="header justify-content-center  row flex-column col-md-1 col-2 d-flex">
+                  <div class="align-items-center">
+                    <img style="width:40px" class="imgIcon" src="" />
+                    <p>
+                      10 cm
+                    </p>
+                    <img style="width:40px" class="imgIcon" src="" />
+                    <p>
+                      100 cm
+                    </p>
+
                   </div>
-                  <div class="col-md-11 d-flex flex-column ">
-                    <div class="imgProd col-md-4 align-self-center">
+                  </div>
+                  <div class="blocText col-md-11 col-10 text-center row d-flex">
+                    <div class="imgProd col-md-4 col-12 text-center align-self-center">
                       <img src="ressources/produits/001.jpg">
                     </div>
-                    <div class="text-cont col-md-8 align-self-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.
+                    <div class="text-cont col-md-8 col-12 align-self-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.
                     </div>
                   </div>
 
               </div>
 
-              <div class="panel-white mini d-flex col-md-12">
+              <div class="panel-white mini d-flex col-md-10 col-8 row">
 
-                  <div class="header col-md-1 d-flex">
-                    <div class="col-md-11 flex-column d-flex">
-                      <img class="imgIcon" src="images/icone_diametre.png" />
-                      <p>
-                        10 cm
-                      </p>
-                      <img class="imgIcon" src="images/icone_hauteur.png" />
-                      <p>
-                        100 cm
-                      </p>
-                    </div>
+                <div class="header justify-content-center  row flex-column col-md-1 col-2 d-flex">
+                  <div class="align-items-center">
+                    <img style="width:40px" class="imgIcon" src="" />
+                    <p>
+                      10 cm
+                    </p>
+                    <img style="width:40px" class="imgIcon" src="" />
+                    <p>
+                      100 cm
+                    </p>
+
                   </div>
-                  <div class="col-md-11 d-flex">
-                    <div class="imgProd col-md-4 align-self-center">
+                  </div>
+                  <div class="blocText col-md-11 col-10 text-center row d-flex">
+                    <div class="imgProd col-md-4 col-12 text-center align-self-center">
                       <img src="ressources/produits/002.jpg">
                     </div>
-                    <div class="text-cont col-md-7 align-self-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.
+                    <div class="text-cont col-md-8 col-12 align-self-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.
                     </div>
                   </div>
-                </div>
 
-                <div class="panel-white mini d-flex col-md-12">
+              </div>
 
-                    <div class="header col-md-1 d-flex">
-                      <div class="col-md-11 flex-column d-flex">
-                        <img class="imgIcon" src="images/icone_diametre.png" />
-                        <p>
-                          10 cm
-                        </p>
-                        <img class="imgIcon" src="images/icone_hauteur.png" />
-                        <p>
-                          100 cm
-                        </p>
-                      </div>
+              <div class="panel-white mini d-flex col-md-10 col-8 row">
+
+                <div class="header justify-content-center  row flex-column col-md-1 col-2 d-flex">
+                  <div class="align-items-center">
+                    <img style="width:40px" class="imgIcon" src="" />
+                    <p>
+                      10 cm
+                    </p>
+                    <img style="width:40px" class="imgIcon" src="" />
+                    <p>
+                      100 cm
+                    </p>
+
+                  </div>
+                  </div>
+                  <div class="blocText col-md-11 col-10 text-center row d-flex">
+                    <div class="imgProd col-md-4 col-12 text-center align-self-center">
+                      <img src="ressources/produits/003.jpg">
                     </div>
-                    <div class="col-md-11 d-flex">
-                      <div class="imgProd col-md-4 align-self-center">
-                        <img src="ressources/produits/003.jpg">
-                      </div>
-                      <div class="text-cont col-md-7 align-self-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.
-                      </div>
+                    <div class="text-cont col-md-8 col-12 align-self-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.
                     </div>
+                  </div>
 
-                </div>
+              </div>
+
+
 
             </section>
 

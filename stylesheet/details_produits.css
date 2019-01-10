@@ -20,14 +20,20 @@ section .panel-white .header {
     border-bottom-left-radius: 5px;
 }
 
-.panel-white.mini
-{
-    padding-left: 0;
-}
+  .blocText
+  {
+    margin-left: 15px;
+  }
+
+  .panel-white.mini
+  {
+      padding: 0;
+  }
 
   img {
     margin: 15px 0;
     width: 100%;
+    max-width: 220px;
   }
 
   img .imgIcon {
@@ -36,12 +42,22 @@ section .panel-white .header {
 
 .imgProd
 {
-  padding-left: 0;
+  padding: 0;
 }
+
+/* .col-sm-11.col-10.text-center.row.d-flex
+{
+  margin: auto;
+} */
 
   section
   {
     margin: 15px;
+  }
+
+  div.col-11.d-flex
+  {
+    margin: 0 15px;
   }
 
 div .col-md-12
