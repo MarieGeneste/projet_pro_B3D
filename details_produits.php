@@ -47,11 +47,11 @@
                   <div class="align-items-center">
                     <img style="width:40px" class="imgIcon" src="" />
                     <p>
-                      10 cm
+                     <span class="icons" style="font-size: 40px;"> ø </span> 10 cm
                     </p>
                     <img style="width:40px" class="imgIcon" src="" />
                     <p>
-                      100 cm
+                      <i class="fas fa-arrows-alt-v icons"></i> 100 cm
                     </p>
 
                   </div>
@@ -72,11 +72,11 @@
                   <div class="align-items-center">
                     <img style="width:40px" class="imgIcon" src="" />
                     <p>
-                      10 cm
+                     <span class="icons" style="font-size: 40px;"> ø </span> 10 cm
                     </p>
                     <img style="width:40px" class="imgIcon" src="" />
                     <p>
-                      100 cm
+                      <i class="fas fa-arrows-alt-v icons"></i> 100 cm
                     </p>
 
                   </div>
@@ -97,11 +97,11 @@
                   <div class="align-items-center">
                     <img style="width:40px" class="imgIcon" src="" />
                     <p>
-                      10 cm
+                     <span class="icons" style="font-size: 40px;"> ø </span> 10 cm
                     </p>
                     <img style="width:40px" class="imgIcon" src="" />
                     <p>
-                      100 cm
+                      <i class="fas fa-arrows-alt-v icons"></i> 100 cm
                     </p>
 
                   </div>
