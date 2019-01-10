@@ -60,7 +60,7 @@
                     <div class="imgProd col-md-4 col-12 text-center align-self-center">
                       <img src="ressources/produits/001.jpg">
                     </div>
-                    <div class="text-cont col-md-8 col-12 align-self-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.
+                    <div class="text-cont text-md-left col-md-8 col-12 align-self-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.
                     </div>
                   </div>
 
@@ -85,7 +85,7 @@
                     <div class="imgProd col-md-4 col-12 text-center align-self-center">
                       <img src="ressources/produits/002.jpg">
                     </div>
-                    <div class="text-cont col-md-8 col-12 align-self-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.
+                    <div class="text-cont text-md-left col-md-8 col-12 align-self-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.
                     </div>
                   </div>
 
@@ -110,7 +110,7 @@
                     <div class="imgProd col-md-4 col-12 text-center align-self-center">
                       <img src="ressources/produits/003.jpg">
                     </div>
-                    <div class="text-cont col-md-8 col-12 align-self-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.
+                    <div class="text-cont text-md-left col-md-8 col-12 align-self-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.
                     </div>
                   </div>
 
