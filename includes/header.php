@@ -14,8 +14,8 @@
       <li class="nav-item <?php if(strpos($_SERVER['REQUEST_URI'], 'produits')) { echo('active'); } ?>">
         <a class="nav-link" href="produits.php">Produits</a>
       </li>
-      <li class="nav-item <?php if(strpos($_SERVER['REQUEST_URI'], 'contact')) { echo('active'); } ?>">
-        <a class="nav-link" href="#contact">Contact</a>
+      <li class="nav-item <?php if(strpos($_SERVER['REQUEST_URI'], 'contacts')) { echo('active'); } ?>">
+        <a class="nav-link" href="contacts.php">Contact</a>
       </li>
     </ul>
     <ul class="nav navbar-nav navbar-right">
