@@ -32,7 +32,7 @@ body {
 /* Position the image container (needed to position the left and right arrows) */
 .container.caroussel {
  position: relative;
- top: -20px;
+ top: -50px;
 }
 .container.caroussel .row{
   margin-left: 0 !important;
