@@ -48,6 +48,16 @@ body{
   border-top: 3px solid #ae2626;
 }
 
+div.dropdown-menu.btn-danger.show
+{
+  position:inherit;
+  background-color: inherit;
+      display: inline-grid;
+}
+
+.dropdown-divider {
+    display: inline-block;
+}
 
 .page-content .container {
   position: relative;
