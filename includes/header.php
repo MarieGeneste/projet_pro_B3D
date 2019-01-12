@@ -19,9 +19,9 @@
         <a class="nav-link" id="open-dropdown" href="produits.php">Produits <i class="fas fa-caret-down"></i></a>
       </li>
         <div class="dropdown-content">
-          <a href="#">Chataigner</a>
-          <a href="#">Pin</a>
-          <a href="#">Accacia</a>
+          <a href="details_produits.php">Chataigner</a>
+          <a href="details_produits.php">Pin</a>
+          <a href="details_produits.php">Accacia</a>
         </div>
       </div>
       <li class="nav-item">
@@ -135,7 +135,7 @@
     #mobile {
       display: none;
     }
-  } 
+  }
 
   @media (max-width: 900px) {
     #large-desktop {
@@ -148,7 +148,7 @@
     }
 
 
-  }  
+  }
 </style>
 
 <style type="text/css">
@@ -196,7 +196,7 @@
 
   $('#open-mobile-dropdown').on('click', function(e){
     e.preventDefault();
-    if (Open == false) { 
+    if (Open == false) {
       $('.mobile-dropdown-content').css('display', 'block');
       $('#arrow').html('<span id="arrow"><i class="fas fa-caret-up"></i></span>');
       Open = true;

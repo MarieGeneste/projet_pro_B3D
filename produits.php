@@ -61,7 +61,7 @@
 
                 <img src="ressources/produits/002.jpg">
                 <div class="text-cont">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.</div>
-                <botton class='prod-btn'>Nos produits accacia</botton>
+                <botton class='prod-btn'><a href="details_produits.php">Nos produits accacia</a></botton>
               </div>
 
               </div>
@@ -75,7 +75,7 @@
 
                 <img src="ressources/produits/003.jpg">
                 <div class="text-cont">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.</div>
-                <botton class='prod-btn'>Nos produits pin</botton>
+                <botton class='prod-btn'><a href="details_produits.php">Nos produits pin</a></botton>
               </div>
 
               </div>
