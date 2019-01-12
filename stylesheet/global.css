@@ -10,15 +10,6 @@ h2{
   font-size: 22px;
 }
 
-a{
-  color: #ae2626;
-  text-decoration: underline;
-}
-a:hover{
-  color: #8f1f1f;
-  text-decoration: underline;
-}
-
 body{
   margin: 0;
   min-height: 100%;
@@ -27,12 +18,12 @@ body{
   background-repeat: repeat;
   background-size: cover;
 }
-.navbar,
+.navbar#large-desktop,
 .panel-white .header, h2 {
   font-family: 'Acme', sans-serif;
 }
 
-.navbar.background {
+.navbar#large-desktop.background {
   height: 250px;
   background-image: url('../ressources/society/header_bg.png');
   color: #fff !important;
@@ -40,17 +31,29 @@ body{
 
 
 }
-.navbar .navbar-brand{
+.navbar#large-desktop .navbar#large-desktop-brand{
   padding-left: 25px;
 }
-
-.navbar .nav-item a {
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+}
+.navbar#large-desktop .nav-link a {
   color: #fff !important;
   text-transform: uppercase;
   font-weight: 900;
+  transition: all 0.3s ease-in-out;
+  position: relative;
 }
-.navbar .nav-item.active {
-  border-bottom: 2px solid #ae2626;
+.navbar#large-desktop .nav-link.active {
+  border-top: 2px solid #ae2626;
+  margin-top: -2px;
+  color: #fff !important;
+}
+.navbar#large-desktop .nav-link:hover{
+  transition: all 0.3s ease-in-out;
+  border-top: 2px solid #ae2626;
+  margin-top: -2px;
+  color: #fff !important;
 }
 
 .page-content {
@@ -121,7 +124,7 @@ footer{
   margin: 0px;
   padding: 0px;
   position: relative;
-  top: 40px;
+  top: 150px;
 
 
 }
@@ -163,7 +166,7 @@ footer{
 }
 
 .copyright_cont{
-  padding-top: 110px;
+  padding-top: 210px;
   color: #fff;
   font-size: 0.8em;
   padding-bottom: 20px;
