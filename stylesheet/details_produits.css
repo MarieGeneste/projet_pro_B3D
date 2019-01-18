@@ -2,7 +2,6 @@
 
 .panel-white.mini {
   border: 0;
-  top: 120px;
   margin-bottom: 50px;
 }
 
@@ -30,13 +29,15 @@ section .panel-white .header {
       padding: 0;
   }
 
-  img {
+  
+  .panel-white.mini img {
     margin: 15px 0;
     width: 100%;
     max-width: 220px;
   }
 
-  img .imgIcon {
+  
+  .panel-white.mini img .imgIcon {
     width: 10%;
   }
 

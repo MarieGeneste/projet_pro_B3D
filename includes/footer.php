@@ -33,9 +33,6 @@
                       </div>
                     </div>
 
-
-
-
                     <div class="col-md-6  col-sm-12">
                       <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2808.309593022266!2d1.7470402651390722!3d45.26175217909908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s22+rue+Hsesdca+des+swdew++19000+Tulle!5e0!3m2!1sfr!2sfr!4v1545333206179" width="100%" height="200" frameborder="0" style="border:1" allowfullscreen></iframe>
                     </div>
@@ -47,18 +44,7 @@
           </div>
 
   </div>
-
-
-
-
-
-
-
-
-
-      </div>
-
-
+</div>
 
 
 
