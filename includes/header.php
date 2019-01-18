@@ -141,7 +141,7 @@
     #large-desktop {
       display: none;
     }
-    .page-content .container {
+    .page-content .container{
       position: relative;
       top: 0;
       padding-top:10px;
