@@ -10,7 +10,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = formCheckInput($_POST['email']);
     $phone = formCheckInput($_POST['phone']);
     $message = formCheckInput($_POST['email']);
-    
+    $check_r = $_POST['check-rgpd'];
     //Verifications
 
     if(empty($first_name)) {
@@ -28,7 +28,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         array_push($errors, "<b> * </b> Votre adresse mail n'est pas valide<br/>");
     }
-
+    
     if(empty($message)){
         array_push($errors, '<b> * </b> Vous devez indiquer votre message<br/>');
     }
@@ -61,4 +61,30 @@ function formCheckInput($input) {
     $input = stripslashes($input);
     $input = htmlspecialchars($input);
     return $input;
+}
+
+function Email($first_name, $last_name, $email, $message, $phone){
+    $to = "";
+    $subject = "";
+    
+    $final_message = "
+    <html>
+        <head>
+            <meta charset='utf-8'>
+        </head>
+        <body>
+            <div><b>De:</b> ".$first_name . "" . $last_name ."</div>
+            <div><b>Email:</b> ".$email."</div>
+            <div><b>Numéro de téléphone:</b> ".$phone."</div>
+            <div><b>Message:</b> ".$message."</div>
+        </body>
+    </html>
+    
+    
+    ";
+    
+    $headers  = 'MIME-Version: 1.0' . "\r\n";
+    $headers .= 'Content-type: text/html; charset=UTF-8' . "\r\n";
+    
+    mail($to, $subject, $final_message, $headers);
 }

@@ -110,8 +110,8 @@
                <div class="col-lg-8">
                 <div class="input_otst"><span class="star">*</span> C'est informations sont requises</div>
                  <div class="form-group form-check">
-                  <input type="checkbox" class="form-check-input" id="rgpd" name="rgpd" value="checked">
-                  <label class="form-check-label" for="rgpd">J’ai lu et j'accepte <a href="rgpd.php">la politique de confidentialité</a> du site <span class="star">*</span></label>
+                  <input type="checkbox" class="form-check-input" id="check-rgpd" name="check-rgpd">
+                  <label class="form-check-label" for="check-rgpd">J’ai lu et j'accepte <a href="rgpd.php">la politique de confidentialité</a> du site <span class="star">*</span></label>
                 </div>
 
               </div>
