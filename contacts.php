@@ -50,7 +50,7 @@
               </div>
 
                 <div class="col-lg-4  input_otst">
-                   <label for="first_name">first_name <span class="star">*</span> :</label>
+                   <label for="first_name">Prénom <span class="star">*</span> :</label>
                    <div class="input-group">
                         <span class="clearable">
                           <input type="text" class="form-control" id="first_name" name="first_name" aria-describedby="sizing-addon2"  placeholder="Votre prénom">
