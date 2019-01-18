@@ -44,11 +44,11 @@
       <div id="mobile-dropdown">
         <a href="#" id="open-mobile-dropdown"><li class="link">Produits <span id="arrow"><i class="fas fa-caret-down"></i></i></span></li></a>
         <div class="mobile-dropdown-content">
-          <a href="#">Produits</a>
+          <a href="produits.php">Produits</a>
           <hr />
-          <a href="#">Chataigner</a>
-          <a href="#">Pin</a>
-          <a href="#">Accacia</a>
+          <a href="details_produits.php">Chataigner</a>
+          <a href="details_produits.php">Pin</a>
+          <a href="details_produits.php">Accacia</a>
         </div>
       </div>
 

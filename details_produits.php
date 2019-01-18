@@ -28,7 +28,7 @@
 
             <div class="col-md-12">
 
-              <div class="panel-white">
+              <div class="panel-white detailsInfos">
               <div class="header"><i class="fas fa-tree"></i></i> Piquets en chataîgnier</div>
               <div class="content">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dolore, vitae, aspernatur cum, mollitia error ratione ullam quae, in fugit harum voluptatem deleniti pariatur corrupti quisquam ipsam vero! Tenetur, impedit. <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.</div>
@@ -42,7 +42,7 @@
 
             <section class="d-flex justify-content-center row">
 
-              <div class="panel-white mini d-flex col-md-10 col-8 row">
+              <div class="detailsProd panel-white mini d-flex col-md-10 col-8 row">
 
                 <div class="header justify-content-center  row flex-column col-md-1 col-2 d-flex">
                   <div class="align-items-center">
@@ -67,7 +67,7 @@
 
               </div>
 
-              <div class="panel-white mini d-flex col-md-10 col-8 row">
+              <div class="detailsProd panel-white mini d-flex col-md-10 col-8 row">
 
                 <div class="header justify-content-center  row flex-column col-md-1 col-2 d-flex">
                   <div class="align-items-center">
@@ -92,7 +92,7 @@
 
               </div>
 
-              <div class="panel-white mini d-flex col-md-10 col-8 row">
+              <div class="detailsProd panel-white mini d-flex col-md-10 col-8 row">
 
                 <div class="header justify-content-center  row flex-column col-md-1 col-2 d-flex">
                   <div class="align-items-center">

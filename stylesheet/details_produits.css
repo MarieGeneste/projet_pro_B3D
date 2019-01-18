@@ -2,7 +2,6 @@
 
 .panel-white.mini {
   border: 0;
-  margin-bottom: 50px;
 }
 
 .panel-white.mini .header {
@@ -19,6 +18,15 @@ section .panel-white .header {
     border-bottom-left-radius: 5px;
 }
 
+.detailsInfos
+{
+      margin-bottom: 6%;
+}
+.detailsProd
+{
+      margin-bottom: 4%;
+}
+
   .blocText
   {
     margin-left: 15px;
@@ -29,14 +37,14 @@ section .panel-white .header {
       padding: 0;
   }
 
-  
+
   .panel-white.mini img {
     margin: 15px 0;
     width: 100%;
     max-width: 220px;
   }
 
-  
+
   .panel-white.mini img .imgIcon {
     width: 10%;
   }
