@@ -3,14 +3,12 @@
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $errors = [];
 
-
     //Variables
     $first_name = formCheckInput($_POST['first_name']);
     $last_name = formCheckInput($_POST['last_name']);
     $email = formCheckInput($_POST['email']);
     $phone = formCheckInput($_POST['phone']);
     $message = formCheckInput($_POST['email']);
-    $check_r = $_POST['check-rgpd'];
     //Verifications
 
     if(empty($first_name)) {
@@ -25,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         array_push($errors, '<b> * </b> Vous devez indiquer votre email<br/>');
     }
 
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+    if (!empty($email) && (!filter_var($email, FILTER_VALIDATE_EMAIL))) {
         array_push($errors, "<b> * </b> Votre adresse mail n'est pas valide<br/>");
     }
     
