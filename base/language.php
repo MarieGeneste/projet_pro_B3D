@@ -5,7 +5,7 @@
       'menu_home' => 'Accueil',
       'menu_society' => 'Société',
       'menu_products' => 'Produits',
-      'menu_products_chestnut' => 'Chataignier',
+      'menu_products_chestnut' => 'Châtaignier',
       'menu_products_pine' => 'Pin',
       'menu_products_acacia' => 'Accacia',
       'menu_contact' => 'Contact',
@@ -76,11 +76,90 @@
       'form_thanks' => "Merci à vous.",
       'form_error' => "Erreur à l'envoie du formulaire",
 
-        'rgpd_title' => "Politique de confidentialité",
-        'rgpd_text' => "test",
+      'rgpd_title' => "Politique de confidentialité",
+      'rgpd_text' => "test",
 
     ),
-    'english' => array(''),
+    'english' => array(
+
+    'menu_home' => 'Home',
+    'menu_society' => 'Society',
+    'menu_products' => 'Products',
+    'menu_products_chestnut' => 'Chestnut',
+    'menu_products_pine' => 'Pine',
+    'menu_products_acacia' => 'Acacia',
+    'menu_contact' => 'Contact',
+    'society_aboutme_title' => "Company presentation",
+    'society_aboutme_desc' => "With 20 years of experience in the woods, I wanted to go back to basics by settling in the old family sawmill located closer to the forest resource. I specialized in the manufacture of pickets and logs of acacia, pines or chestnut. My flexible and flexible production tool makes it possible to produce stakes or rounded or round logs of different dimensions. Designed for growers, landscapers, arboriculturists, or just for individuals wanting to create a fence or a garden, stakes or logs B3D are a safe bet.",
+    'society_img1' => 'test1',
+    'society_img2' => 'test3',
+    'society_img3' => 'test3',
+    'society_img4' => 'test4',
+    'society_img5' => 'test5',
+    'society_img6' => 'test6',
+    'footer_title' => 'Contact',
+    'footer_address_title' => 'Address',
+    'footer_address' => '22 Hsesdca street of swdew -<br>19000 Tulle',
+    'footer_schedule_title' => 'Schedule',
+    'footer_schedule' => 'Monday - Friday <br>09:00 - 12:00 / 13:00 - 17:00',
+    'footer_phone_title' => 'Phone',
+    'footer_phone' => 'fixed: +33.751.40.33.21 mobile: +33.632.43.23.12',
+    'footer_email_title' => 'Email',
+
+    'footer_copyright' => "B3D, ". date('Y') .". All rights reserved.<br> Copies of documents only if there is a link indexed to the source.",
+    'footer_dev' => "Website developed by:",
+    //----------------------
+    'products_title' => "Products",
+    'products_text' => "<p>Our stakes and logs are produced from logs operated within a radius of 70 km. The pine comes from threshholds planted after the 1999 storm.</p> <p>These juvenile woods generally used for the establishment of anti-hail nets or trellising have a very low proportion of heartwood giving them a very good ability to autoclave treatment.</p> <p>Our acacia logs contain a very small amount of sapwood and tight growth rings giving the wood excellent natural durability and very good mechanical strength. All of our wood comes from sustainably managed cuts and generally benefits from PEFC certification.</p>",
+    'products_prod1_title' => "Chestnut stakes",
+    'products_prod1_text' => "test",
+    'products_prod1_btn' => "Our chestnut products",
+
+    'products_prod2_title' => "Acacia stakes",
+    'products_prod2_text' => "All of our acacia products are debarked to bring more aesthetics and cleanliness to stakes but especially to avoid transporting parasites like xylophagous insects on the site of the clientele. Our acacia stakes are slotted or flat and a square tip with an area between 1 and 1.5 cm2 is made big end.",
+    'products_prod2_btn' => "Our acacia products",
+
+    'products_prod3_title' => "Pine stakes",
+    'products_prod3_text' => "Our pins and poles pins are flat and a square tip of an area between 1 and 1.5 cm2 is made big end. The quality of our wood conforms to the specifications of standard NF B 50-100-3 for a class of class IV use after having undergone an autoclave treatment using the vacuum Bethell process and pressure of 12 bars in a CTB B + certified station.",
+    'products_prod3_btn' => "Our pine products",
+
+    'prod1_title' => "Chestnut stakes",
+    'prod1_text' => "test",
+
+    'prod2_title' => "Acacia stakes",
+    'prod2_text' => "<p>All of our acacia products are debarked to bring more aesthetics and cleanliness to stakes but especially to avoid transporting parasites like xylophagous insects on the site of the clientele.</p> <p>Our acacia stakes are slotted or flat and a square tip with an area between 1 and 1.5 cm2 is made big end.</p> <p>The slot operation allows the wood to retain its mechanical strength and limit drying deformations.</p>",
+
+    'prod3_title' => "Pine stakes",
+    'prod3_text' => "<p>Our pins and poles pins are flat and a square tip of an area between 1 and 1.5 cm2 is made big end.</p><p>The quality of our wood conforms to the specifications of standard NF B 50-100-3 for a class of class IV use after having undergone an autoclave treatment using the vacuum Bethell process and pressure of 12 bars in a CTB B + certified station.</p> <p>The proportion of heartwood present in our pines is low which allows penetration and retention of optimum preservative for increased longevity of our stakes and poles.</p>",
+
+    'form_title' => "Contact form",
+
+    'form_firstname_label' => "First name",
+    'form_firstname_placeholder' => "Your first name",
+
+    'form_lastname_label' => "Last name",
+    'form_lastname_placeholder' => "Your last name",
+
+    'form_email_label' => "Email",
+    'form_email_placeholder' => "Your email",
+
+    'form_phone_label' => "Phone",
+    'form_phone_placeholder' => "Your phone",
+
+    'form_message_label' => "Message",
+    'form_message_placeholder' => "Your message",
+
+    'form_required' => "This is required information",
+    'form_rgpd' => "I have read and accept  <a href='rgpd.php'>the site's privacy policy</a>",
+    'form_btn' => "Send",
+
+    'form_thanks' => "Thank you.",
+    'form_error' => "Error sending the form",
+
+    'rgpd_title' => "Privacy policy",
+    'rgpd_text' => "test",
+
+    ),
   );
 
   $_SESSION['translate'] = $translate['french'];
