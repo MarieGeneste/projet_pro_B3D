@@ -160,8 +160,170 @@
     'rgpd_text' => "test",
 
     ),
+
+    'espagnol' => array(
+
+      'menu_home' => 'Bienvenida',
+      'menu_society' => 'Empresa',
+      'menu_products' => 'Productos',
+      'menu_products_chestnut' => 'Castaña',
+      'menu_products_pine' => 'Pino',
+      'menu_products_acacia' => 'Acacia',
+      'menu_contact' => 'Contactar',
+      'society_aboutme_title' => "Presentación de la empresa",
+      'society_aboutme_desc' => "Con 20 años de experiencia en el bosque, quería volver a lo básico al instalarme en el antiguo aserradero familiar ubicado más cerca del recurso forestal. Me especialicé en la fabricación de piquetes y troncos de acacia, pinos o castaños. Mi herramienta de producción flexible y flexible hace posible producir estacas o troncos redondeados o redondos de diferentes dimensiones. Diseñados para cultivadores, jardineros, arboricultores o solo para personas que desean crear una cerca o un jardín, estacas o troncos B3D son una apuesta segura.",
+      'society_img1' => 'test1',
+      'society_img2' => 'test3',
+      'society_img3' => 'test3',
+      'society_img4' => 'test4',
+      'society_img5' => 'test5',
+      'society_img6' => 'test6',
+      'footer_title' => 'Contactar',
+      'footer_address_title' => 'Dirección',
+      'footer_address' => '22 Hsesdca calle de swdew - <br>19000 Tulle',
+      'footer_schedule_title' => 'Horario',
+      'footer_schedule' => 'Lunes - Viernes <br>09:00 - 12:00 / 13:00 - 17:00',
+      'footer_phone_title' => 'Teléfono',
+      'footer_phone' => 'fijo: +33.751.40.33.21 móvil: +33.632.43.23.12',
+      'footer_email_title' => 'E-mail',
+
+      'footer_copyright' => "B3D, ". date('Y') .". Todos los derechos reservados.<br> Copias de documentos solo si hay un enlace indexado a la fuente.",
+      'footer_dev' => "Sitio web desarrollado por:",
+      //----------------------
+      'products_title' => "Productos",
+      'products_text' => "<p>Nuestras estacas y troncos se producen a partir de troncos operados en un radio de 70 km. El pino proviene de los tramos plantados después de la tormenta de 1999.</p> <p>Estas maderas juveniles generalmente utilizadas para el establecimiento de redes contra el granizo o enrejados tienen una proporción muy baja de duramen, lo que les da una muy buena capacidad para el tratamiento en autoclave.</p> <p>Nuestros troncos de acacia contienen una cantidad muy pequeña de albura y anillos de crecimiento apretados que le dan a la madera una excelente durabilidad natural y una muy buena resistencia mecánica. Toda nuestra madera proviene de cortes gestionados de forma sostenible y generalmente se beneficia de la certificación PEFC.</p>",
+      'products_prod1_title' => "Estacas de chataigner",
+      'products_prod1_text' => "test",
+      'products_prod1_btn' => "Nuestros productos chataigner",
+
+      'products_prod2_title' => "Estacas de acacia",
+      'products_prod2_text' => "Todos nuestros productos de acacia están marcados para aportar más estética y limpieza a las estacas, pero especialmente para evitar el transporte de parásitos como insectos xilófagos en el sitio de la clientela. Nuestras estacas de acacia son ranuradas o planas y una punta cuadrada con un área de entre 1 y 1,5 cm2 se hace de extremo grande.",
+      'products_prod2_btn' => "Nuestros productos de acacia",
+
+      'products_prod3_title' => "Estacas de pino",
+      'products_prod3_text' => "Nuestros pines y polos son planos y una punta cuadrada de un área entre 1 y 1,5 cm2 se hace grande. La calidad de nuestra madera cumple con las especificaciones de la norma NF B 50-100-3 para una clase de uso IV después de haber sido sometida a un tratamiento de autoclave utilizando el proceso de vacío Bethell y una presión de 12 bares en una estación certificada por CTB B +.",
+      'products_prod3_btn' => "Nuestros productos de pino",
+
+      'prod1_title' => "Clavijas de castaño",
+      'prod1_text' => "test",
+
+      'prod2_title' => "Estacas de acacia",
+      'prod2_text' => "<p>Todos nuestros productos de acacia están marcados para aportar más estética y limpieza a las estacas, pero especialmente para evitar el transporte de parásitos como insectos xilófagos en el sitio de la clientela.</p> <p>Nuestras estacas de acacia son ranuradas o planas y una punta cuadrada con un área de entre 1 y 1,5 cm2 se hace de extremo grande.</p> <p>La operación de la ranura permite que la madera retenga su resistencia mecánica y limite las deformaciones de secado.</p>",
+
+      'prod3_title' => "Estacas de pino",
+      'prod3_text' => "<p>Nuestros pines y polos son planos y una punta cuadrada de un área entre 1 y 1,5 cm2 se hace grande.</p><p>La calidad de nuestra madera cumple con las especificaciones de la norma NF B 50-100-3 para una clase de uso IV después de haber sido sometida a un tratamiento de autoclave utilizando el proceso de vacío Bethell y una presión de 12 bares en una estación certificada por CTB B +.</p> <p>La proporción de duramen presente en nuestros pinos es baja, lo que permite la penetración y retención del conservante óptimo para aumentar la longevidad de nuestras estacas y postes.</p>",
+
+      'form_title' => "Formulario de contacto",
+
+      'form_firstname_label' => "Primer nombre",
+      'form_firstname_placeholder' => "Vuestro nombre",
+
+      'form_lastname_label' => "Apellido",
+      'form_lastname_placeholder' => "Vuestro apellido",
+
+      'form_email_label' => "Dirección de correo electrónico",
+      'form_email_placeholder' => "Vuestro direccion de correo electronico",
+
+      'form_phone_label' => "Teléfono",
+      'form_phone_placeholder' => "Vuestro telefono",
+
+      'form_message_label' => "Mensaje",
+      'form_message_placeholder' => "Vuestro mensaje",
+
+      'form_required' => "Esta es información requerida",
+      'form_rgpd' => "He leído y acepto <a href='rgpd.php'> la política de privacidad </a> del sitio",
+      'form_btn' => "Enviar a",
+
+      'form_thanks' => "Gracias a usted.",
+      'form_error' => "Error al enviar el formulario",
+
+      'rgpd_title' => "Política de confidencialidad",
+      'rgpd_text' => "test",
+
+    ),
+
+    'germany' => array(
+      'menu_home' => 'Willkommen',
+      'menu_society' => 'Unternehmen',
+      'menu_products' => 'Produkte',
+      'menu_products_chestnut' => 'Kastanie',
+      'menu_products_pine' => 'Kiefer',
+      'menu_products_acacia' => 'Akazie',
+      'menu_contact' => 'Kontakt',
+      'society_aboutme_title' => "Präsentation des Unternehmens",
+      'society_aboutme_desc' => "Mit 20 Jahren Erfahrung in den Wäldern wollte ich in das alte Familiensägewerk zurückkehren, das sich näher an der Waldressource befindet. Ich habe mich auf die Herstellung von Streikposten und Protokollen aus Akazien, Kiefern oder Kastanien spezialisiert. Mein flexibles und flexibles Produktionswerkzeug ermöglicht das Herstellen von Pfählen oder Rund- oder Rundholz mit unterschiedlichen Abmessungen. Entworfen für Züchter, Landschaftsgärtner, Baumzüchter oder nur für Einzelpersonen, die einen Zaun oder einen Garten anlegen möchten. Pfähle oder Baumstämme B3D sind eine sichere Wahl.",
+      'society_img1' => 'test1',
+      'society_img2' => 'test3',
+      'society_img3' => 'test3',
+      'society_img4' => 'test4',
+      'society_img5' => 'test5',
+      'society_img6' => 'test6',
+      'footer_title' => 'Kontakt',
+      'footer_address_title' => 'Adresse',
+      'footer_address' => '22 Hsesdca Straße von Swdew - <br>19000 Tüll',
+      'footer_schedule_title' => 'Zeitplan',
+      'footer_schedule' => 'Montag bis Freitag <br>09:00 - 12:00 / 13:00 - 17:00',
+      'footer_phone_title' => 'Telefon',
+      'footer_phone' => 'behoben: +33.751.40.33.21 mobil: +33.632.43.23.12',
+      'footer_email_title' => 'E-Mail',
+
+      'footer_copyright' => "B3D, ". date('Y') .". Alle Rechte vorbehalten.<br> Kopien von Dokumenten nur, wenn ein Link zur Quelle vorhanden ist.",
+      'footer_dev' => "Website entwickelt von:",
+      //----------------------
+      'products_title' => "Produkte",
+      'products_text' => "<p>Unsere Einsätze und Protokolle werden aus Rundholz hergestellt, das im Umkreis von 70 km betrieben wird. Die Kiefer stammt von Threshholds, die nach dem Sturm von 1999 gepflanzt wurden.</p> <p>Diese Jugendhölzer, die im Allgemeinen für die Einrichtung von Hagelschutznetzen oder für das Trellising verwendet werden, haben einen sehr geringen Kernholzanteil, wodurch sie sehr gut autoklaviert werden können.</p> <p>Unsere Akazienstämme enthalten nur eine geringe Menge Splintholz und enge Wachstumsringe, was dem Holz eine hervorragende natürliche Haltbarkeit und sehr gute mechanische Festigkeit verleiht. Alle unsere Hölzer stammen aus nachhaltig bewirtschafteten Schnitten und profitieren generell von der PEFC-Zertifizierung.</p>",
+      'products_prod1_title' => "Kastanienpfähle",
+      'products_prod1_text' => "test",
+      'products_prod1_btn' => "Unsere produkte chataigner",
+
+      'products_prod2_title' => "Akazienpfähle",
+      'products_prod2_text' => "Alle unsere Akazienprodukte werden entrindet, um mehr Ästhetik und Sauberkeit zu erreichen, insbesondere jedoch den Transport von Parasiten wie xylophagous Insekten auf dem Gelände der Kundschaft zu vermeiden. Unsere Akazienpfähle sind geschlitzt oder flach und eine eckige Spitze mit einer Fläche zwischen 1 und 1,5 cm2 ist ein großes Ende.",
+      'products_prod2_btn' => "Unsere Akazienprodukte",
+
+      'products_prod3_title' => "Unsere Akazienprodukte",
+      'products_prod3_text' => "Unsere Stifte und Stifte sind flach und eine quadratische Spitze mit einer Fläche zwischen 1 und 1,5 cm2 ist ein großes Ende. Die Qualität unseres Holzes entspricht den Anforderungen der Norm NF B 50-100-3 für eine Klasse IV-Klasse, nachdem es einer Autoklavenbehandlung gemäß dem Bethell-Prozess Vakuum und Druck von 12 bar in einer CTB B + -zertifizierten Station unterzogen wurde.",
+      'products_prod3_btn' => "Unsere Kiefernprodukte",
+
+      'prod1_title' => "Kastanienheringe",
+      'prod1_text' => "test",
+
+      'prod2_title' => "Akazienpfähle",
+      'prod2_text' => "<p>Alle unsere Akazienprodukte werden entrindet, um mehr Ästhetik und Sauberkeit zu erreichen, insbesondere jedoch den Transport von Parasiten wie xylophagous Insekten auf dem Gelände der Kundschaft zu vermeiden.</p> <p>Unsere Akazienpfähle sind geschlitzt oder flach und eine eckige Spitze mit einer Fläche zwischen 1 und 1,5 cm2 ist ein großes Ende.</p> <p>Durch den Schlitzbetrieb behält das Holz seine mechanische Festigkeit und begrenzt die Verformungen beim Trocknen.</p>",
+
+      'prod3_title' => "Kieferpfähle",
+      'prod3_text' => "<p>Unsere Stifte und Stifte sind flach und eine quadratische Spitze mit einer Fläche zwischen 1 und 1,5 cm2 ist ein großes Ende.</p><p>Die Qualität unseres Holzes entspricht den Anforderungen der Norm NF B 50-100-3 für eine Klasse IV-Verwendung, nachdem es einer Autoklavenbehandlung im Vakuum-Bethell-Verfahren und einem Druck von 12 bar in einer CTB B + -zertifizierten Station unterzogen wurde.</p> <p>Der Anteil an Kernholz in unseren Kiefern ist gering, so dass ein optimales Konservierungsmittel für eine höhere Lebensdauer unserer Pfähle und Stöcke durchdrungen und erhalten werden kann.</p>",
+
+      'form_title' => "Kontaktformular",
+
+      'form_firstname_label' => "Vorname",
+      'form_firstname_placeholder' => "Ihre vorname",
+
+      'form_lastname_label' => "Name",
+      'form_lastname_placeholder' => "Ihre Name",
+
+      'form_email_label' => "E-Mail-Adresse",
+      'form_email_placeholder' => "Ihre E-Mail Adresse",
+
+      'form_phone_label' => "Telefon",
+      'form_phone_placeholder' => "Ihre Telefon",
+
+      'form_message_label' => "Nachricht",
+      'form_message_placeholder' => "Ihre Nachricht",
+
+      'form_required' => "Dies sind erforderliche Informationen",
+      'form_rgpd' => "Ich habe die <a href='rgpd.php'> Datenschutzerklärung </a> der Website gelesen und bin damit einverstanden",
+      'form_btn' => "Senden",
+
+      'form_thanks' => "Danke",
+      'form_error' => "Fehler beim Senden des Formulars",
+
+      'rgpd_title' => "Datenschutzrichtlinie",
+      'rgpd_text' => "test",
+
+    ),
+
   );
 
-  $_SESSION['translate'] = $translate['french'];
-  var_dump($_SESSION['translate']);
+  $_SESSION['translate'] = $translate['germany'];
+  //var_dump($_SESSION['translate']);
 ?>
