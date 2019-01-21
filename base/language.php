@@ -280,7 +280,7 @@
       'products_prod2_text' => "Alle unsere Akazienprodukte werden entrindet, um mehr Ästhetik und Sauberkeit zu erreichen, insbesondere jedoch den Transport von Parasiten wie xylophagous Insekten auf dem Gelände der Kundschaft zu vermeiden. Unsere Akazienpfähle sind geschlitzt oder flach und eine eckige Spitze mit einer Fläche zwischen 1 und 1,5 cm2 ist ein großes Ende.",
       'products_prod2_btn' => "Unsere Akazienprodukte",
 
-      'products_prod3_title' => "Unsere Akazienprodukte",
+      'products_prod3_title' => "Unsere Kiefernprodukte",
       'products_prod3_text' => "Unsere Stifte und Stifte sind flach und eine quadratische Spitze mit einer Fläche zwischen 1 und 1,5 cm2 ist ein großes Ende. Die Qualität unseres Holzes entspricht den Anforderungen der Norm NF B 50-100-3 für eine Klasse IV-Klasse, nachdem es einer Autoklavenbehandlung gemäß dem Bethell-Prozess Vakuum und Druck von 12 bar in einer CTB B + -zertifizierten Station unterzogen wurde.",
       'products_prod3_btn' => "Unsere Kiefernprodukte",
 

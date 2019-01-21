@@ -7,7 +7,13 @@ html
 }
 
 h2{
+
   font-size: 22px;
+}
+
+.contact_cont h2{
+  font-family: 'Acme', sans-serif;
+    font-size: 22px;
 }
 
 body{
