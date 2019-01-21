@@ -1,0 +1,36 @@
+DEBUG     Checking PHPLS_ALLOW_XDEBUG
+DEBUG     The xdebug extension is not loaded
+
+[Info  - 16:00:37] 14 files total
+[Info  - 16:00:37] Indexing project for definitions and static references
+Parsing file:///var/www/html/projet_pro_B3D/details_produits3.php
+Parsing file:///var/www/html/projet_pro_B3D/rgpd.php
+Parsing file:///var/www/html/projet_pro_B3D/details_produits1.php
+Parsing file:///var/www/html/projet_pro_B3D/details_produits2.php
+Parsing file:///var/www/html/projet_pro_B3D/includes/form-contact.php
+Parsing file:///var/www/html/projet_pro_B3D/includes/resultat.php
+Parsing file:///var/www/html/projet_pro_B3D/includes/head-menu.php
+Parsing file:///var/www/html/projet_pro_B3D/produits.php
+Parsing file:///var/www/html/projet_pro_B3D/base/footer.php
+Parsing file:///var/www/html/projet_pro_B3D/base/header.php
+Parsing file:///var/www/html/projet_pro_B3D/base/language.php
+Parsing file:///var/www/html/projet_pro_B3D/index.php
+Parsing file:///var/www/html/projet_pro_B3D/contacts.php
+Parsing file:///var/www/html/projet_pro_B3D/society.php
+[Info  - 16:00:37] Indexing project for dynamic references
+Parsing file:///var/www/html/projet_pro_B3D/details_produits3.php
+Parsing file:///var/www/html/projet_pro_B3D/rgpd.php
+Parsing file:///var/www/html/projet_pro_B3D/details_produits1.php
+Parsing file:///var/www/html/projet_pro_B3D/details_produits2.php
+Parsing file:///var/www/html/projet_pro_B3D/includes/form-contact.php
+Parsing file:///var/www/html/projet_pro_B3D/includes/resultat.php
+Parsing file:///var/www/html/projet_pro_B3D/includes/head-menu.php
+Parsing file:///var/www/html/projet_pro_B3D/produits.php
+Parsing file:///var/www/html/projet_pro_B3D/base/footer.php
+Parsing file:///var/www/html/projet_pro_B3D/base/header.php
+Parsing file:///var/www/html/projet_pro_B3D/base/language.php
+Parsing file:///var/www/html/projet_pro_B3D/index.php
+Parsing file:///var/www/html/projet_pro_B3D/contacts.php
+Parsing file:///var/www/html/projet_pro_B3D/society.php
+[Info  - 16:00:37] 0 Packages
+[Info  - 16:00:37] All 14 PHP files parsed in 0 seconds. 146 MiB allocated.

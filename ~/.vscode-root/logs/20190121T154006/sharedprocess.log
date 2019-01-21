@@ -1,0 +1,49 @@
+[2019-01-21 15:40:09.956] [sharedprocess] [info] main {"machineId":"763635a06e54f1753cca8c9a6ff5619b792f1d644eec654d42dd309fa1232129"}
+[2019-01-21 15:40:09.987] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-21 15:40:10.007] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-21 15:40:10.009] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-21 15:40:10.038] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-21 15:40:10.040] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-21 15:40:10.042] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-21 15:40:10.045] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-21 15:40:49.958] [sharedprocess] [info] Starting to clean up unused language packs.
+[2019-01-21 15:45:10.076] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-21 15:50:10.111] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-21 15:50:56.653] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-21 15:50:56.679] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-21 15:50:57.113] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-21 15:55:57.132] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-21 16:00:00.350] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-21 16:00:00.351] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-21 16:00:00.354] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-21 16:00:00.359] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-21 16:00:00.399] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-21 16:00:00.403] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-21 16:00:00.406] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-21 16:00:26.739] [sharedprocess] [info] Installing extension: beautify
+[2019-01-21 16:00:26.742] [sharedprocess] [info] Scanned user extensions: 2
+[2019-01-21 16:00:27.215] [sharedprocess] [info] Downloaded extension: beautify /tmp/89c810a6-4881-4908-898b-d63e95f01916
+[2019-01-21 16:00:27.416] [sharedprocess] [info] Extracted extension to /home/rodrigo/.vscode/extensions/.hookyqr.beautify-1.4.7: hookyqr.beautify-1.4.7
+[2019-01-21 16:00:27.416] [sharedprocess] [info] Renamed to /home/rodrigo/.vscode/extensions/hookyqr.beautify-1.4.7
+[2019-01-21 16:00:27.417] [sharedprocess] [info] Installation completed. hookyqr.beautify-1.4.7
+[2019-01-21 16:00:27.421] [sharedprocess] [info] Extensions installed successfully: hookyqr.beautify
+[2019-01-21 16:00:27.553] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-21 16:00:27.578] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-21 16:00:36.320] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-21 16:00:36.322] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-21 16:00:36.323] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-21 16:00:36.332] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-21 16:00:36.333] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-21 16:00:36.381] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-21 16:00:36.384] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-21 16:00:36.386] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-21 16:00:36.388] [sharedprocess] [info] Scanned system extensions: 71
+[2019-01-21 16:00:36.933] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-21 16:05:36.949] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-21 16:10:36.964] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-21 16:15:36.986] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-21 16:20:37.006] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-21 16:25:37.028] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-21 16:30:37.043] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-21 16:35:37.060] [sharedprocess] [info] Scanned user extensions: 3
+[2019-01-21 16:40:37.191] [sharedprocess] [info] Scanned user extensions: 3

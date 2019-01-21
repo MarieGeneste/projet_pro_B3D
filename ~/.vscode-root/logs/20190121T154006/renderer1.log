@@ -1,0 +1,28 @@
+[2019-01-21 15:40:08.472] [renderer1] [info] no standard startup: not just one text editor
+[2019-01-21 15:50:55.797] [renderer1] [error] Problems parsing file icons file: : Error: Problems parsing file icons file: 
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:4452:801
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2019-01-21 15:50:57.099] [renderer1] [info] no standard startup: not a new window
+[2019-01-21 16:00:36.925] [renderer1] [info] no standard startup: not a new window
+[2019-01-21 16:01:04.541] [renderer1] [error] Illegal argument: character must be non-negative: Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:123:544)
+	at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:345:737)
+	at asPosition (/home/rodrigo/.vscode/extensions/felixfbecker.php-intellisense-2.3.10/node_modules/vscode-languageclient/lib/protocolConverter.js:53:16)
+	at asRange (/home/rodrigo/.vscode/extensions/felixfbecker.php-intellisense-2.3.10/node_modules/vscode-languageclient/lib/protocolConverter.js:59:31)
+	at asHover (/home/rodrigo/.vscode/extensions/felixfbecker.php-intellisense-2.3.10/node_modules/vscode-languageclient/lib/protocolConverter.js:134:63)
+	at <anonymous>
+[2019-01-21 16:17:29.869] [renderer1] [error] Illegal argument: character must be non-negative: Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:123:544)
+	at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:345:737)
+	at asPosition (/home/rodrigo/.vscode/extensions/felixfbecker.php-intellisense-2.3.10/node_modules/vscode-languageclient/lib/protocolConverter.js:53:16)
+	at asRange (/home/rodrigo/.vscode/extensions/felixfbecker.php-intellisense-2.3.10/node_modules/vscode-languageclient/lib/protocolConverter.js:59:31)
+	at asHover (/home/rodrigo/.vscode/extensions/felixfbecker.php-intellisense-2.3.10/node_modules/vscode-languageclient/lib/protocolConverter.js:134:63)
+	at <anonymous>
+[2019-01-21 16:18:33.669] [renderer1] [error] Illegal argument: character must be non-negative: Error: Illegal argument: character must be non-negative
+	at Object.t.illegalArgument (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:123:544)
+	at new e (/usr/share/code/resources/app/out/vs/workbench/node/extensionHostProcess.js:345:737)
+	at asPosition (/home/rodrigo/.vscode/extensions/felixfbecker.php-intellisense-2.3.10/node_modules/vscode-languageclient/lib/protocolConverter.js:53:16)
+	at asRange (/home/rodrigo/.vscode/extensions/felixfbecker.php-intellisense-2.3.10/node_modules/vscode-languageclient/lib/protocolConverter.js:59:31)
+	at asHover (/home/rodrigo/.vscode/extensions/felixfbecker.php-intellisense-2.3.10/node_modules/vscode-languageclient/lib/protocolConverter.js:134:63)
+	at <anonymous>

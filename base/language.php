@@ -161,7 +161,7 @@
 
     ),
 
-    'espagnol' => array(
+    'spanish' => array(
 
       'menu_home' => 'Bienvenida',
       'menu_society' => 'Empresa',
@@ -323,7 +323,25 @@
     ),
 
   );
-
-  $_SESSION['translate'] = $translate['germany'];
   //var_dump($_SESSION['translate']);
+  if(!isset($_GET['lang']) || empty($_GET['lang'])) {
+    $_SESSION['translate'] = $translate['french'];
+    var_dump($_SESSION);
+    $lang_actual = 'Français';
+  } else
+  if($_GET['lang'] == 'english') {
+    $_SESSION['translate'] = $translate['english'];
+    $lang_actual = 'English';
+  } else
+  if($_GET['lang'] == 'spanish') {
+    $_SESSION['translate'] = $translate['spanish'];
+    $lang_actual = 'Espagnol';
+  } else
+  if($_GET['lang'] == 'germany') {
+    $_SESSION['translate'] = $translate['germany'];
+    $lang_actual = 'Deutsch';
+  } else {
+    $_SESSION['translate'] = $translate['french'];
+    $lang_actual = 'Français';
+  }
 ?>

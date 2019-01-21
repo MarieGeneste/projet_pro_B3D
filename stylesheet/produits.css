@@ -2,8 +2,7 @@
 
 .panel-white.mini {
   border: 0;
-  top: 120px;
-  margin-bottom: 70px;
+  height: 100%;
 }
 .panel-white.mini .header {
   color:#fff;
@@ -54,4 +53,10 @@ a:hover
   border-bottom: 3px #8f1f1f solid;
   cursor: pointer;
 
+}
+
+.page-content .products {
+  position: relative;
+  padding: 30px 0;
+  top: 50px;
 }

@@ -35,7 +35,17 @@
     </ul>
 
     <ul class="nav navbar-nav navbar-right">
-      <li class="nav-item"><i class="fas fa-globe-europe"></i> Français</li>
+    <div class="dropdown-lang">
+      <li class="nav-item">
+      <li class="nav-item"><i class="fas fa-globe-europe"></i> <?= $lang_actual;?> </li>
+      </li>
+        <div class="dropdown-content">
+          <a href="?lang=french">Français</a>
+          <a href="?lang=english">Anglais</a>
+          <a href="?lang=spanish">Espagnol</a>
+          <a href="?lang=germany">Allemand</a>
+        </div>
+      </div>
     </ul>
   </div>
 <!--</div>-->
@@ -164,7 +174,7 @@
   display: inline-block;
 }
 
-.dropdown-content {
+.dropdown .dropdown-content {
   display: none;
   position: absolute;
   color: #fff !important;
@@ -175,18 +185,18 @@
   position:fixed;
 }
 
-.dropdown-content a {
+.dropdown .dropdown-content a {
   border-top: 1px solid #fff;
   margin-top: 2px;
 }
 
-.dropdown-content a:hover{
+.dropdown .dropdown-content a:hover{
     transition: all 0.3s ease-in-out;
     border-top: 2px solid #ae2626 !important;
     margin-top: 0px;
   }
 
-.dropdown-content a {
+.dropdown .dropdown-content a {
   color: #fff;
   padding: 12px 16px;
   text-decoration: none;
