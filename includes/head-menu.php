@@ -1,9 +1,10 @@
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
 
 <nav id="large-desktop" class="navbar navbar-expand-lg navbar-light bg-light background">
 <!--  <div class="container"> -->
-    <a class="navbar-brand" href="#">
+    <a class="navbar-brand" href="./index.php">
       <img src="ressources/society/logo.png" />
       <!--<div class="slogan">Piquets, Rondins</div>-->
     </a>
@@ -16,20 +17,20 @@
       <li class="nav-item active">
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="society.php">Société</a>
+        <a class="nav-link" href="society.php"><?= $_SESSION['translate']['menu_society'];?></a>
       </li>
       <div class="dropdown">
       <li class="nav-item">
-        <a class="nav-link" id="open-dropdown" href="produits.php">Produits <i class="fas fa-caret-down"></i></a>
+        <a class="nav-link" id="open-dropdown" href="produits.php"><?= $_SESSION['translate']['menu_products'];?> <i class="fas fa-caret-down"></i></a>
       </li>
         <div class="dropdown-content">
-          <a href="details_produits.php">Chataigner</a>
-          <a href="details_produits.php">Pin</a>
-          <a href="details_produits.php">Accacia</a>
+          <a href="details_produits1.php"><?= $_SESSION['translate']['menu_products_chestnut'];?></a>
+          <a href="details_produits2.php"><?= $_SESSION['translate']['menu_products_acacia'];?></a>
+          <a href="details_produits3.php"><?= $_SESSION['translate']['menu_products_pine'];?></a>
         </div>
       </div>
       <li class="nav-item">
-        <a class="nav-link disabled" href="contacts.php">Contact</a>
+        <a class="nav-link disabled" href="contacts.php"><?= $_SESSION['translate']['menu_contact'];?></a>
       </li>
     </ul>
 
@@ -45,20 +46,20 @@
   <img id="background" src="ressources/society/header_bg.png">
   <img id="logo" style="width: 80px;margin: 10px 0;" src="ressources/society/logo.png" />
   <ul class="navb">
-    <a href="society.php"><li class="link">Societé</li></a>
+    <a href="society.php"><li class="link"><?= $_SESSION['translate']['menu_society'];?></li></a>
       <div id="mobile-dropdown">
-        <a href="#" id="open-mobile-dropdown"><li class="link">Produits <span id="arrow"><i class="fas fa-caret-down"></i></i></span></li></a>
+        <a href="#" id="open-mobile-dropdown"><li class="link"><?= $_SESSION['translate']['menu_products'];?> <span id="arrow"><i class="fas fa-caret-down"></i></i></span></li></a>
         <div class="mobile-dropdown-content">
           <a href="produits.php">Produits</a>
           <hr />
-          <a href="details_produits.php">Chataigner</a>
-          <a href="details_produits.php">Pin</a>
-          <a href="details_produits.php">Accacia</a>
+          <a href="details_produits.php"><?= $_SESSION['translate']['menu_products_chestnut'];?></a>
+          <a href="details_produits.php"><?= $_SESSION['translate']['menu_products_pine'];?></a>
+          <a href="details_produits.php"><?= $_SESSION['translate']['menu_products_acacia'];?></a>
         </div>
       </div>
 
 
-     <a href="contacts.php"><li class="link">Contact</li></a>
+     <a href="contacts.php"><li class="link"><?= $_SESSION['translate']['menu_contact'];?></li></a>
   </ul>
 </div>
 <style>

@@ -1,29 +1,14 @@
-<!-- <?php if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    require('./includes/form-contact.php');
-} ?> -->
+
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>B3D</title>
-    <!-- Chargement des ressources -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/toastify/toastify.css">
-    <link rel="stylesheet" href="./stylesheet/global.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./stylesheet/contacts.css">
-    <!-- Chargement des scripts-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/toastify/toastify.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/rellax/rellax.min.js"></script>
-  </head>
+
+ <?php require('./base/header.php');?> 
+  <link rel="stylesheet" href="./stylesheet/contacts.css">
+
+
     <body data-rellax-speed="7">
 
-      <?php include('./includes/header.php');?>
+      <?php include('./includes/head-menu.php');?>
       <!-- Contenu -->
       <div class="page-content">
         <div class="container">
@@ -32,15 +17,15 @@
             <div class="col-md-12">
 
               <div class="panel-white">
-              <div class="header"><i class="fas fa-at"></i> Formulaire de contact</div>
+              <div class="header"><i class="fas fa-at"></i> <?= $_SESSION['translate']['form_title'];?></div>
               <div class="content">
               <div class="alert alert-success d-none">
-              <h2>Merci à vous.</h2>
+              <h2><?= $_SESSION['translate']['form_thanks'];?></h2>
                 <div id="valide"></div>
               </div>
 
               <div class="alert alert-danger d-none">
-              <h2>Erreur à l'envoie du formulaire</h2>
+              <h2><?= $_SESSION['translate']['form_error'];?></h2>
                 <div id="errors"></div>
               </div>
 
@@ -50,20 +35,20 @@
               </div>
 
                 <div class="col-lg-4  input_otst">
-                   <label for="first_name">Prénom <span class="star">*</span> :</label>
+                   <label for="first_name"><?= $_SESSION['translate']['form_firstname_label'];?> <span class="star">*</span> :</label>
                    <div class="input-group">
                         <span class="clearable">
-                          <input type="text" class="form-control" id="first_name" name="first_name" aria-describedby="sizing-addon2"  placeholder="Votre prénom">
+                          <input type="text" class="form-control" id="first_name" name="first_name" aria-describedby="sizing-addon2"  placeholder="<?= $_SESSION['translate']['form_firstname_placeholder'];?>">
                           <i class="clearable__clear"><i class="fas fa-times-circle"></i></i>
                         </span>
                    </div>
                 </div><!--==========-->
 
               <div class="col-lg-4 input_otst">
-                  <label for="last_name">Nom <span class="star">*</span> :</label>
+                  <label for="last_name"><?= $_SESSION['translate']['form_lastname_label'];?> <span class="star">*</span> :</label>
                 <div class="input-group">
                   <span class="clearable">
-                   <input type="text" class="form-control" id="last_name" name="last_name" aria-describedby="sizing-addon2" placeholder="Votre nom">
+                   <input type="text" class="form-control" id="last_name" name="last_name" aria-describedby="sizing-addon2" placeholder="<?= $_SESSION['translate']['form_lastname_placeholder'];?>">
                    <i class="clearable__clear"><i class="fas fa-times-circle"></i></i>
                  </span>
                 </div>
@@ -75,20 +60,20 @@
 
 
               <div class="col-lg-4 input_otst">
-                  <label for="email">Email <span class="star">*</span> :</label>
+                  <label for="email"><?= $_SESSION['translate']['form_email_label'];?> <span class="star">*</span> :</label>
                 <div class="input-group">
                   <span class="clearable">
-                   <input type="text" class="form-control" id="email" name="email" aria-describedby="sizing-addon2" placeholder="Votre email">
+                   <input type="text" class="form-control" id="email" name="email" aria-describedby="sizing-addon2" placeholder="<?= $_SESSION['translate']['form_email_placeholder'];?>">
                    <i class="clearable__clear"><i class="fas fa-times-circle"></i></i>
                  </span>
                 </div>
               </div><!--==========-->
 
               <div class="col-lg-4 input_otst">
-                  <label for="phone">Telephone :</label>
+                  <label for="phone"><?= $_SESSION['translate']['form_phone_label'];?> :</label>
                 <div class="input-group">
                   <span class="clearable">
-                   <input type="text" class="form-control" id="phone" name="phone" aria-describedby="sizing-addon2" placeholder="Votre téléphone">
+                   <input type="text" class="form-control" id="phone" name="phone" aria-describedby="sizing-addon2" placeholder="<?= $_SESSION['translate']['form_phone_placeholder'];?>">
                    <i class="clearable__clear"><i class="fas fa-times-circle"></i></i>
                  </span>
                 </div>
@@ -100,18 +85,18 @@
               <div class="col-lg-2"></div>
 
               <div class="col-lg-8 form-group">
-                <label for="message">Message <span class="star">*</span> :</label>
-                <textarea class="form-control" id="message" name="message" rows="5" placeholder="Votre message"></textarea>
+                <label for="message"><?= $_SESSION['translate']['form_message_label'];?> <span class="star">*</span> :</label>
+                <textarea class="form-control" id="message" name="message" rows="5" placeholder="<?= $_SESSION['translate']['form_message_placeholder'];?>"></textarea>
               </div>
 
               <div class="col-lg-2"></div>
               <div class="col-lg-2"></div>
 
                <div class="col-lg-8">
-                <div class="input_otst"><span class="star">*</span> C'est informations sont requises</div>
+                <div class="input_otst"><span class="star">*</span><?= $_SESSION['translate']['form_required'];?></div>
                  <div class="form-group form-check">
                   <input type="checkbox" class="form-check-input" id="check-rgpd" name="check-rgpd">
-                  <label class="form-check-label" for="check-rgpd">J’ai lu et j'accepte <a href="rgpd.php">la politique de confidentialité</a> du site <span class="star">*</span></label>
+                  <label class="form-check-label" for="check-rgpd"><?= $_SESSION['translate']['form_rgpd'];?> <span class="star">*</span></label>
                 </div>
 
               </div>
@@ -121,7 +106,7 @@
 
               <div class="col-lg-8 input_otst">
 
-                <input type='submit' name='submit' class="btn btn-primary col-sm col-lg-2 bot_envoye" value='Envoyer'></input>
+                <input type='submit' name='submit' class="btn btn-primary col-sm col-lg-2 bot_envoye" value="<?= $_SESSION['translate']['form_btn'];?>"></input>
               </div>
               <div class="col-lg-2"></div>
 
@@ -138,7 +123,7 @@
       </div>
 
 
-      <?php include('./includes/footer.php');?>
+      <?php include('./base/footer.php');?>
       <script>
            var rellax = new Rellax('body', {
   });
@@ -193,7 +178,7 @@
                 $('#errors').parent().removeClass('d-none');
               }
             }
-            
+
           });
         });
 function resetAll() {

@@ -1,25 +1,9 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>B3D</title>
-    <!-- Chargement des ressources -->
-    <link rel="stylesheet" href="bootstrap/css/stylesheet.css">
-
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="stylesheet/global.css">
+    <?php require('./base/header.php');?>
     <link rel="stylesheet" href="stylesheet/society.css">
-    <!-- Chargement des scripts-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/rellax/rellax.min.js"></script>
-  </head>
     <body data-rellax-speed="7">
-      <?php include('./includes/header.php');?>
+      <?php include('./includes/head-menu.php');?>
       <!-- Contenu -->
       <div class="page-content">
         <div class="container">
@@ -31,10 +15,9 @@
           </div>
           <div class="col-md-8">
             <div class="panel-white about-me">
-              <div class="header"><i class="far fa-clock"></i> Historique de la société</div>
+              <div class="header"><i class="far fa-clock"></i> <?= $_SESSION['translate']['society_aboutme_title'];?></div>
               <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dolore, vitae, aspernatur cum, mollitia error ratione ullam quae, in fugit harum voluptatem deleniti pariatur corrupti quisquam ipsam vero! Tenetur, impedit. <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.</div>
-                <div>Cumque quisquam nemo perspiciatis reiciendis porro voluptate recusandae, sequi iste aperiam obcaecati numquam, iusto sint officia officiis vero natus mollitia, neque ea enim optio aliquid ex aliquam animi. Unde, veritatis.</div>
+                <p><?= $_SESSION['translate']['society_aboutme_desc'];?></p>
               </div>
             </div>
           </div>
@@ -86,27 +69,28 @@
        <!-- Thumbnail images -->
        <div class="row">
          <div class="column">
-           <img class="demo cursor" src="./ressources/images/1.JPG" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+           <img class="demo cursor" src="./ressources/images/1.JPG" style="width:100%" onclick="currentSlide(1)" alt="<?= $_SESSION['translate']['society_img1'];?>">
+
          </div>
          <div class="column">
-           <img class="demo cursor" src="./ressources/images/2.JPG" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+           <img class="demo cursor" src="./ressources/images/2.JPG" style="width:100%" onclick="currentSlide(2)" alt="<?= $_SESSION['translate']['society_img2'];?>">
          </div>
          <div class="column">
-           <img class="demo cursor" src="./ressources/images/3.JPG" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+           <img class="demo cursor" src="./ressources/images/3.JPG" style="width:100%" onclick="currentSlide(3)" alt="<?= $_SESSION['translate']['society_img3'];?>">
          </div>
          <div class="column">
-           <img class="demo cursor" src="./ressources/images/4.JPG" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+           <img class="demo cursor" src="./ressources/images/4.JPG" style="width:100%" onclick="currentSlide(4)" alt="<?= $_SESSION['translate']['society_img4'];?>">
          </div>
          <div class="column">
-           <img class="demo cursor" src="./ressources/images/5.JPG" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+           <img class="demo cursor" src="./ressources/images/5.JPG" style="width:100%" onclick="currentSlide(5)" alt="<?= $_SESSION['translate']['society_img5'];?>">
          </div>
          <div class="column">
-           <img class="demo cursor" src="./ressources/images/6.JPG" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+           <img class="demo cursor" src="./ressources/images/6.JPG" style="width:100%" onclick="currentSlide(6)" alt="<?= $_SESSION['translate']['society_img6'];?>">
          </div>
        </div>
       </div>
       </div>
-     <?php include('./includes/footer.php');?>
+     <?php include('./base/footer.php');?>
     </body>
 </html>
 

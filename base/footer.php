@@ -3,32 +3,32 @@
           <div class="row col-md-12">
               <div class="container">
               <div class="panel-white">
-              <div class="header" id="contact"><i class="far fa-envelope"></i> Contact</div>
+              <div class="header" id="contact"><i class="far fa-envelope"></i> <?= $_SESSION['translate']['footer_title'];?></div>
               <div class="content">
 
 
                  <div class="row wo_marg">
                     <div class="col-md-3 col-sm-6">
                       <div class="contact_cont">
-                        <h2>Adresse</h2>
-                        <div class="contact_text">22 rue Hsesdca des swdew <br> 19000 Tulle</div>
+                        <h2><?= $_SESSION['translate']['footer_address_title'];?></h2>
+                        <div class="contact_text"><?= $_SESSION['translate']['footer_address'];?></div>
                       </div>
 
                       <div class="contact_cont">
-                        <h2>Horaires</h2>
-                        <div class="contact_text">Lundi - Vendredi <br> 09:00 - 12:00 / 13:00 - 17:00</div>
+                        <h2><?= $_SESSION['translate']['footer_schedule_title'];?></h2>
+                        <div class="contact_text"><?= $_SESSION['translate']['footer_schedule'];?></div>
                       </div>
                     </div>
 
 
                     <div class="col-md-3 col-sm-6">
                       <div class="contact_cont">
-                        <h2>Telephone</h2>
-                        <div class="contact_text">fix: +33.751.40.33.21 <br> portable: +33.632.43.23.12</div>
+                        <h2><?= $_SESSION['translate']['footer_phone_title'];?></h2>
+                        <div class="contact_text"><?= $_SESSION['translate']['footer_phone'];?></div>
                       </div>
 
                       <div class="contact_cont">
-                        <h2>Courreil</h2>
+                        <h2><?= $_SESSION['translate']['footer_email_title'];?></h2>
                         <div class="contact_text">info@b3d.fr</div>
                       </div>
                     </div>
@@ -55,11 +55,9 @@
       <div class="col-md-1 col-sm-1 col-1">
         <a href="#"><img src='ressources/logo_mini.png'></a>
       </div>
-      <div class="col-md-7 col-sm-11 col-11 cr_text">
-        B3D, <?php echo date("Y");?>. Tous droits réservés. <br>
-        Copies des documents uniquement s'il existe un lien indexé vers la source.
-      </div>
-      <div class="col-md-3  col-sm-11 site_dev_par">Site développé par:</div>
+      <div class="col-md-7 col-sm-11 col-11 cr_text"><?= $_SESSION['translate']['footer_copyright'];?>
+            </div>
+      <div class="col-md-3  col-sm-11 site_dev_par"><?= $_SESSION['translate']['footer_dev'];?></div>
       <div class="col-md-1 col-sm-1 site_dev_par2">
         <a href="https://corrtech.fr/"><img src='ressources/corrd3v.png'></a>
         <div class="corr3dv">coяr<span class="green">d3v</span></div>

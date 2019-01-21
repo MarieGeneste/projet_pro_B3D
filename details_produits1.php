@@ -1,26 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>B3D</title>
-    <!-- Chargement des ressources -->
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="./stylesheet/global.css">
+    <?php require('./base/header.php');?>
     <link rel="stylesheet" href="./stylesheet/details_produits.css">
-    <!-- Chargement des scripts-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/rellax/rellax.min.js"></script>
-  </head>
     <body data-rellax-speed="7">
 
-      <?php include('./includes/header.php');?>
+      <?php include('./includes/head-menu.php');?>
       <!-- Contenu -->
       <div class="page-content">
         <div class="container">
@@ -29,9 +13,10 @@
             <div class="col-md-12">
 
               <div class="panel-white detailsInfos">
-              <div class="header"><i class="fas fa-tree"></i></i> Piquets en chataîgnier</div>
+              <div class="header"><i class="fas fa-tree"></i></i> <?= $_SESSION['translate']['prod1_title'];?></div>
               <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dolore, vitae, aspernatur cum, mollitia error ratione ullam quae, in fugit harum voluptatem deleniti pariatur corrupti quisquam ipsam vero! Tenetur, impedit. <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nemo minus necessitatibus ullam, molestiae facere ad, sequi, sunt recusandae repellendus accusantium, aspernatur fuga ratione consequuntur consequatur eligendi natus eaque error.</div>
+                <?= $_SESSION['translate']['prod1_text'];?>
+                </div>
 
               </div>
             </div>
@@ -132,7 +117,7 @@
       </div>
 
 
-      <?php include('./includes/footer.php');?>
+      <?php include('./base/footer.php');?>
       <script>
            var rellax = new Rellax('body', {
   });
