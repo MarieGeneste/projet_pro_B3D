@@ -46,6 +46,14 @@ body {
  top: 44px;
 }
 
+.mySlides img, .demo.cursor{
+  border: solid 3px #fff;
+}
+
+
+.column{
+}
+
 /* Add a pointer when hovering over the thumbnail images */
 .cursor {
  cursor: pointer;
@@ -97,9 +105,12 @@ body {
  text-align: center;
  background-color: rgba(0,0,0,0.6);
  padding: 10px;
+ margin: 3px;
+ bottom: 6px;
  position: relative;
  z-index: 20;
  color: white;
+
 }
 .caption-container p{
 margin-top: unset;

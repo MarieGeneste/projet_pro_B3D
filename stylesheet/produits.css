@@ -4,6 +4,7 @@
   border: 0;
   top: 120px;
   margin-bottom: 70px;
+
 }
 .panel-white.mini .header {
   color:#fff;
@@ -17,7 +18,7 @@
 a {
     color: white;
 }
-
+/*  */
 a:hover
 {
   color: white;
@@ -55,3 +56,5 @@ a:hover
   cursor: pointer;
 
 }
+
+.prod-btn a{  display: block;}
