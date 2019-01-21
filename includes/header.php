@@ -58,7 +58,7 @@
       </div>
 
 
-     <a href="contact.php"><li class="link">Contact</li></a>
+     <a href="contacts.php"><li class="link">Contact</li></a>
   </ul>
 </div>
 <style>
