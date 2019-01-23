@@ -37,7 +37,7 @@
     <ul class="nav navbar-nav navbar-right">
     <div class="dropdown-lang">
       <li class="nav-item">
-      <li class="nav-item"><i class="fas fa-globe-europe"></i> <?= $lang_actual;?> </li>
+      <li class="nav-item"><i class="fas fa-globe-europe"></i> <?= $_SESSION['lang'];?> </li>
       </li>
         <div class="dropdown-content">
           <a href="?lang=french">Français</a>

@@ -323,25 +323,30 @@
     ),
 
   );
-  //var_dump($_SESSION['translate']);
-  if(!isset($_GET['lang']) || empty($_GET['lang'])) {
+  
+  if(!empty($_SESSION['lang'])) {
+    $translate['translate'] = $_SESSION['lang'];
+  } 
+  
+  if(empty($_SESSION['lang']) && (!isset($_GET['lang']))){
     $_SESSION['translate'] = $translate['french'];
-    var_dump($_SESSION);
-    $lang_actual = 'Français';
-  } else
+    $_SESSION['lang'] = 'Français';
+  }
+
+  if($_GET['lang'] == 'french') {
+    $_SESSION['translate'] = $translate['french'];
+    $_SESSION['lang'] = 'Français';
+  }
   if($_GET['lang'] == 'english') {
     $_SESSION['translate'] = $translate['english'];
-    $lang_actual = 'English';
-  } else
+    $_SESSION['lang'] = 'English';
+  }
   if($_GET['lang'] == 'spanish') {
     $_SESSION['translate'] = $translate['spanish'];
-    $lang_actual = 'Espagnol';
-  } else
+    $_SESSION['lang'] = 'Espagnol';
+  }
   if($_GET['lang'] == 'germany') {
     $_SESSION['translate'] = $translate['germany'];
-    $lang_actual = 'Deutsch';
-  } else {
-    $_SESSION['translate'] = $translate['french'];
-    $lang_actual = 'Français';
+    $_SESSION['lang'] = 'Deutsch';
   }
 ?>

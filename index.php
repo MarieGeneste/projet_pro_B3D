@@ -23,9 +23,9 @@
         </div>
         <div class="menu">
           <a href="society.php" class="item">Français</a>
-          <div class="item">Anglais</div>
-          <div class="item">Espagnol</div>
-          <div class="item">Allemand</div>
+          <a href="society.php?lang=english" class="item">Anglais</a>
+          <a href="society.php?lang=spanish" class="item">Espagnol</a>
+          <a href="society.php?lang=germany" class="item">Allemand</a>
         </div>
       </div>
   </body>

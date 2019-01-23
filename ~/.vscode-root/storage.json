@@ -7,5 +7,25 @@
         "files2": []
     },
     "theme": "vs-dark",
-    "themeBackground": "#292d3e"
+    "themeBackground": "#292d3e",
+    "windowsState": {
+        "openedWindows": [],
+        "lastActiveWindow": {
+            "folderUri": {
+                "$mid": 1,
+                "fsPath": "/var/www/html/projet_pro_B3D",
+                "external": "file:///var/www/html/projet_pro_B3D",
+                "path": "/var/www/html/projet_pro_B3D",
+                "scheme": "file"
+            },
+            "backupPath": "/var/www/html/projet_pro_B3D/~/.vscode-root/Backups/7a7ea4de280a4750b5d5592eb1eaf6d6",
+            "uiState": {
+                "mode": 0,
+                "x": 0,
+                "y": 0,
+                "width": 1920,
+                "height": 1080
+            }
+        }
+    }
 }
