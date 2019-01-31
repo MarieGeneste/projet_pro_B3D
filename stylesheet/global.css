@@ -51,17 +51,19 @@ body{
   position: relative;
 }
 .navbar#large-desktop .nav-link.active {
-  border-top: 2px solid #ae2626;
-  margin-top: -2px;
+  border-top: 1px solid #ae2626;
+  margin-top: -1px;
   color: #fff !important;
 }
 .navbar#large-desktop .nav-link:hover{
   transition: all 0.3s ease-in-out;
-  border-top: 2px solid #ae2626;
-  margin-top: -2px;
+  border-top: 1px solid #ae2626;
+  margin-top: -1px;
   color: #fff !important;
 }
-
+.nav-item.active {
+  border-top: 1px solid #ae2626;
+}
 .page-content {
   border-top: 3px solid #ae2626;
 }

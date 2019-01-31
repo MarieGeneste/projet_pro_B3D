@@ -162,7 +162,7 @@
           resetAllErrors();
           $.ajax({
             type: 'POST',
-            url: './includes/form-contact',
+            url: 'includes/form-contact.php',
             data: new FormData(this),
             dataType: "JSON",
             contentType: false,
@@ -181,6 +181,9 @@
 
           });
         });
+
+
+
 function resetAll() {
   $('#first_name').val('');
   $('#last_name').val('');
@@ -188,6 +191,8 @@ function resetAll() {
   $('#phone').val('');
   $('#message').val('');
 }
+
+
 function resetAllErrors() {
   $('#errors').html(' ');
   $('#errors').parent().addClass('d-none');

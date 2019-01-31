@@ -1,0 +1,17 @@
+.page-content.product .visual img {
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+}
+
+
+.status {
+    padding: 10px;
+    background-color: #42bf63a1;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    top: -44px;
+    margin-bottom: -54px;
+}

@@ -16,11 +16,11 @@
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
       </li>
-      <li class="nav-item">
+      <li class="nav-item <?php if(strpos($_SERVER['REQUEST_URI'], 'society')) { echo('active'); } ?>">
         <a class="nav-link" href="society.php"><?= $_SESSION['translate']['menu_society'];?></a>
       </li>
       <div class="dropdown">
-      <li class="nav-item">
+      <li class="nav-item <?php if(strpos($_SERVER['REQUEST_URI'], 'produits')) { echo('active'); } ?>">
         <a class="nav-link" id="open-dropdown" href="produits.php"><?= $_SESSION['translate']['menu_products'];?> <i class="fas fa-caret-down"></i></a>
       </li>
         <div class="dropdown-content">
@@ -29,7 +29,7 @@
           <a href="details_produits3.php"><?= $_SESSION['translate']['menu_products_pine'];?></a>
         </div>
       </div>
-      <li class="nav-item">
+      <li class="nav-item <?php if(strpos($_SERVER['REQUEST_URI'], 'contacts')) { echo('active'); } ?>">
         <a class="nav-link disabled" href="contacts.php"><?= $_SESSION['translate']['menu_contact'];?></a>
       </li>
     </ul>
