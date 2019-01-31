@@ -11,6 +11,13 @@ h2{
   font-size: 22px;
 }
 
+h3.pour_table{
+
+  font-size: 22px;
+  padding-top: 15px;
+  font-family: 'Acme', sans-serif;
+}
+
 .contact_cont h2{
   font-family: 'Acme', sans-serif;
     font-size: 22px;
@@ -19,7 +26,7 @@ h2{
 body{
   margin: 0;
   min-height: 100%;
-  font-size: 1.2em !important;
+  font-size: 1em !important;
   overflow-x: hidden;
   background-image: url('../ressources/society/bg.jpg');
   background-repeat: repeat;
@@ -223,7 +230,7 @@ footer{
   border-top: 1px solid #fff;
 }
 
-.dropdown-lang a:hover{ 
+.dropdown-lang a:hover{
     display: block;
     transition: all 0.3s ease-in-out;
 }
@@ -265,5 +272,3 @@ footer{
 .cr_text{padding-left: 50px;}
 
 }
-
-

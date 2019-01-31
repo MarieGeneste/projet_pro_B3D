@@ -28,9 +28,29 @@
                         <?= $_SESSION['translate']['prod1_text'];?>
                       </div>
                     </div>
-                  </div> 
+                  </div>
                   <div class="col-md-12" >
                     <!-- ------------ INSERT TABLE HERE ----------- -->
+
+<h3 class="pour_table">Piquets châtaignier</h3>
+
+                       <table>
+                         <tr>
+                           <th colspan="2">Longueurs</th>
+                           <th>2m 00</th>
+                           <th>2m 30</th>
+                           <th>2m 50</th>
+                         </tr>
+                         <tr>
+                           <td rowspan="2">Périmètres fin bout</td>
+                           <td>24/29 cm</td>
+                           <td colspan="3">130 µ / palette</td>
+                         </tr>
+                         <tr>
+                           <td>28 cm et +</td>
+                           <td colspan="4">110 µ / palette</td>
+                         </tr>
+                       </table>
                   </div>
                 </div>
               </div>
