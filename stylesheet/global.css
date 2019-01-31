@@ -19,6 +19,7 @@ h2{
 body{
   margin: 0;
   min-height: 100%;
+  font-size: 1.2em !important;
   overflow-x: hidden;
   background-image: url('../ressources/society/bg.jpg');
   background-repeat: repeat;

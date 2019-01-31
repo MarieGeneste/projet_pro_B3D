@@ -23,9 +23,15 @@
                       </div>
                     </div>
                     <div class="col-md-8">
-                      <?= $_SESSION['translate']['prod1_text'];?>
+                      <div class="category">Description du produit</div>
+                      <div class="description">
+                        <?= $_SESSION['translate']['prod1_text'];?>
+                      </div>
                     </div>
-                  </div>  
+                  </div> 
+                  <div class="col-md-12" >
+                    <!-- ------------ INSERT TABLE HERE ----------- -->
+                  </div>
                 </div>
               </div>
             </div>
