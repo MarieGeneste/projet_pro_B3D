@@ -9,10 +9,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $email = formCheckInput($_POST['email']);
     $phone = formCheckInput($_POST['phone']);
     $message = formCheckInput($_POST['email']);
+    $rgpd = formCheckInput($_POST['check-rgpd']);
     //Verifications
 
     if(empty($first_name)) {
         array_push($errors, '<b> * </b> Vous devez indiquer votre prénom<br/>');
+    }
+
+    if(!($rgpd)) {
+        array_push($errors, '<b> * </b> Vous devez accepter les conditions d\'utilisations<br/>');
     }
 
     if(empty($last_name)) {
@@ -31,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         array_push($errors, '<b> * </b> Vous devez indiquer votre message<br/>');
     }
 
-    if (!empty($phone) && (!preg_match('/^(\s)?(+)?([- ().]?\d[- _().]?){10,14}(\s)?$/', $phone))) {
+    if (!empty($phone) && (!preg_match("/^(\+33|0|0033)[0-9]{9}$/", $phone))) {
        array_push($errors, "<b> * </b> Votre numéro de téléphone n'est pas valide.<br/>");
     }
 
