@@ -345,20 +345,23 @@ The slot operation allows the wood to retain its mechanical strength and limit d
     $_SESSION['lang'] = 'Français';
   }
 
-  if($_GET['lang'] == 'french') {
-    $_SESSION['translate'] = $translate['french'];
-    $_SESSION['lang'] = 'Français';
+  if (isset($_GET['lang'])) {
+    if($_GET['lang'] == 'french') {
+      $_SESSION['translate'] = $translate['french'];
+      $_SESSION['lang'] = 'Français';
+    }
+    if($_GET['lang'] == 'english') {
+      $_SESSION['translate'] = $translate['english'];
+      $_SESSION['lang'] = 'English';
+    }
+    if($_GET['lang'] == 'spanish') {
+      $_SESSION['translate'] = $translate['spanish'];
+      $_SESSION['lang'] = 'Espagnol';
+    }
+    if($_GET['lang'] == 'germany') {
+      $_SESSION['translate'] = $translate['germany'];
+      $_SESSION['lang'] = 'Deutsch';
+    }
   }
-  if($_GET['lang'] == 'english') {
-    $_SESSION['translate'] = $translate['english'];
-    $_SESSION['lang'] = 'English';
-  }
-  if($_GET['lang'] == 'spanish') {
-    $_SESSION['translate'] = $translate['spanish'];
-    $_SESSION['lang'] = 'Espagnol';
-  }
-  if($_GET['lang'] == 'germany') {
-    $_SESSION['translate'] = $translate['germany'];
-    $_SESSION['lang'] = 'Deutsch';
-  }
+
 ?>
