@@ -10,7 +10,7 @@
       'menu_products_acacia' => 'Accacia',
       'menu_contact' => 'Contact',
       'society_aboutme_title' => "Présentation société",
-      'society_aboutme_desc' => "Fort de 20 ans d’expérience dans la lière bois, j’ai souhaité faire un retour aux sources en m’installant dans l’ancienne scierie familiale située au plus près de la ressource forestière. Je me suis spécialisé dans la fabrication de piquets et rondins d’acacia, pins ou châtaignier. Mon outil de production souple et flexible permet de produire des piquets ou rondins fendus ou ronds de différentes dimensions. Destinés aux vignerons, paysagistes, arboriculteurs, ou tout simplement aux particuliers désireux de créer une clôture ou un aménagement de jardin, les piquets ou rondins B3D sont une valeur sûre.",
+      'society_aboutme_desc' => "<p>Fort de 20 ans d’expérience dans la lière bois, j’ai souhaité faire un retour aux sources en m’installant dans l’ancienne scierie familiale située au plus près de la ressource forestière.</p><p>Je me suis spécialisé dans la fabrication de piquets et rondins d’acacia, pins ou châtaignier.</p><p>Mon outil de production souple et flexible permet de produire des piquets ou rondins fendus ou ronds de différentes dimensions.</p><p>Destinés aux vignerons, paysagistes, arboriculteurs, ou tout simplement aux particuliers désireux de créer une clôture ou un aménagement de jardin, les piquets ou rondins B3D sont une valeur sûre.</p>",
       'society_img1' => 'test1',
       'society_img2' => 'test3',
       'society_img3' => 'test3',
