@@ -61,7 +61,7 @@
             <!--=================================-->
 
             <div class="col-lg-6 col-md-6">
-<div class="horiz_prod last">
+<div class="horiz_prod">
               <div class="panel-white mini ">
                 <div class="header"><?= $_SESSION['translate']['products_prod3_title'];?></div>
                 <div class="content ">
