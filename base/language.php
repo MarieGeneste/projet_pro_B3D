@@ -32,7 +32,8 @@
       'products_title' => "Produits",
       'products_text' => "<p>Nos piquets et rondins sont produits à partir de grumes exploitées dans un rayon de 70 km. Le pin provient de coupes d’éclaircies plantées après la tempête de 1999.</p> <p>Ces bois juvéniles utilisés généralement pour la mise en place de filets anti-grêle ou le palissage comportent une très faible proportion de bois de cœur leurs donnant une très bonne aptitude au traitement autoclave.</p> <p>Nos grumes d’acacia comportent une très faible quantité d’aubier et des cernes d’accroissement serrées conférant au bois une excellente durabilité naturelle et une très bonne résistance mécanique. L’ensemble de nos bois proviennent de coupes gérées durablement et bénéficie généralement de la certification PEFC.</p>",
       'products_prod1_title' => "Piquets chataigner",
-      'products_prod1_text' => "test",
+      'products_prod1_text' => "<p>Moins durable dans le temps que l’acacia, le châtaignier en reste néanmoins une essence imputrescible grâce à sa présence d’acide tanique.</p><p>
+      L’ensemble de nos produits châtaignier sont écorcés pour apporter plus d’esthétique et de propreté aux piquets mais surtout pour éviter de transporter des parasites sur le site de la clientèle. Nos piquets acacia sont fendus ou planés et une pointe carrée d’une surface comprise entre 1 et 1,5 cm² est réalisée gros bout.</p>",
       'products_prod1_btn' => "Nos produits chataigner",
 
       'products_prod2_title' => "Piquets accacia",
@@ -114,7 +115,8 @@
     'products_title' => "Products",
     'products_text' => "<p>Our stakes and logs are produced from logs operated within a radius of 70 km. The pine comes from threshholds planted after the 1999 storm.</p> <p>These juvenile woods generally used for the establishment of anti-hail nets or trellising have a very low proportion of heartwood giving them a very good ability to autoclave treatment.</p> <p>Our acacia logs contain a very small amount of sapwood and tight growth rings giving the wood excellent natural durability and very good mechanical strength. All of our wood comes from sustainably managed cuts and generally benefits from PEFC certification.</p>",
     'products_prod1_title' => "Chestnut stakes",
-    'products_prod1_text' => "test",
+    'products_prod1_text' => "<p>Less durable in time than acacia, chestnut remains nevertheless a rot-proof species due to its presence of tannic acid.</p><p>
+All of our chestnut products are debarked to bring more aesthetics and cleanliness to the stakes but especially to avoid carrying parasites on the site of customers. Our acacia stakes are slotted or flat and a square tip with an area between 1 and 1.5 cm² is made big end.</p>",
     'products_prod1_btn' => "Our chestnut products",
 
     'products_prod2_title' => "Acacia stakes",
@@ -197,7 +199,8 @@ The slot operation allows the wood to retain its mechanical strength and limit d
       'products_title' => "Productos",
       'products_text' => "<p>Nuestras estacas y troncos se producen a partir de troncos operados en un radio de 70 km. El pino proviene de los tramos plantados después de la tormenta de 1999.</p> <p>Estas maderas juveniles generalmente utilizadas para el establecimiento de redes contra el granizo o enrejados tienen una proporción muy baja de duramen, lo que les da una muy buena capacidad para el tratamiento en autoclave.</p> <p>Nuestros troncos de acacia contienen una cantidad muy pequeña de albura y anillos de crecimiento apretados que le dan a la madera una excelente durabilidad natural y una muy buena resistencia mecánica. Toda nuestra madera proviene de cortes gestionados de forma sostenible y generalmente se beneficia de la certificación PEFC.</p>",
       'products_prod1_title' => "Estacas de chataigner",
-      'products_prod1_text' => "test",
+      'products_prod1_text' => "<p>Menos duradera en el tiempo que la acacia, la castaña sigue siendo una especie a prueba de podredumbre debido a su presencia de ácido tánico.</p><p>
+      Todos nuestros productos de castaño están marcados para aportar más estética y limpieza a las estacas, pero especialmente para evitar el transporte de parásitos en el sitio de los clientes. Nuestras estacas de acacia son ranuradas o planas y una punta cuadrada con un área entre 1 y 1,5 cm² se hace grande.</p>",
       'products_prod1_btn' => "Nuestros productos chataigner",
 
       'products_prod2_title' => "Estacas de acacia",
@@ -279,7 +282,8 @@ The slot operation allows the wood to retain its mechanical strength and limit d
       'products_title' => "Produkte",
       'products_text' => "<p>Unsere Einsätze und Protokolle werden aus Rundholz hergestellt, das im Umkreis von 70 km betrieben wird. Die Kiefer stammt von Threshholds, die nach dem Sturm von 1999 gepflanzt wurden.</p> <p>Diese Jugendhölzer, die im Allgemeinen für die Einrichtung von Hagelschutznetzen oder für das Trellising verwendet werden, haben einen sehr geringen Kernholzanteil, wodurch sie sehr gut autoklaviert werden können.</p> <p>Unsere Akazienstämme enthalten nur eine geringe Menge Splintholz und enge Wachstumsringe, was dem Holz eine hervorragende natürliche Haltbarkeit und sehr gute mechanische Festigkeit verleiht. Alle unsere Hölzer stammen aus nachhaltig bewirtschafteten Schnitten und profitieren generell von der PEFC-Zertifizierung.</p>",
       'products_prod1_title' => "Kastanienpfähle",
-      'products_prod1_text' => "test",
+      'products_prod1_text' => "<p>Mit der Zeit weniger haltbar als Akazien, bleibt die Kastanie aufgrund ihrer Anwesenheit von Gerbsäure dennoch eine verrottungssichere Art.</p><p>
+      Alle unsere Kastanienprodukte werden entrindet, um den Pfählen mehr Ästhetik und Sauberkeit zu bieten, vor allem aber das Tragen von Parasiten auf dem Gelände der Kunden zu vermeiden. Unsere Akazienpfähle sind geschlitzt oder flach und eine eckige Spitze mit einer Fläche zwischen 1 und 1,5 cm² ist ein großes Ende.</p>",
       'products_prod1_btn' => "Unsere produkte chataigner",
 
       'products_prod2_title' => "Akazienpfähle",
