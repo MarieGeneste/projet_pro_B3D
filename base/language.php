@@ -44,6 +44,10 @@
       'products_prod3_text' => "Nos piquets et poteaux pins sont planés et une pointe carrée d’une surface comprise entre 1 et 1,5 cm2 est réalisée gros bout. La qualité de nos bois est conforme aux spécifications de la norme NF B 50-100-3 pour une classe d’emploi classe IV après avoir subi un traitement en autoclave suivant le procédé Bethell vide et pression 12 bars dans une station certifiée CTB B+.",
       'products_prod3_btn' => "Nos produits pin",
 
+      'products_prod4_title' => "Bois de chauffe",
+      'products_prod4_text' => "<p>Notre bois de chauffage issu de notre production de piquets acacia est vendu sous forme de fagots de 2 ou 2,5 stères ou de bûches fendues de 30 cm.</p>",
+      'products_prod4_btn' => "Nos produits bois de chauffe",
+
       'prod1_title' => "Piquets en chataîgnier",
       'prod1_text' => "<p>Moins durable dans le temps que l’acacia, le châtaignier en reste néanmoins une essence imputrescible grâce à sa présence d’acide tanique.</p><p>
       L’ensemble de nos produits châtaignier sont écorcés pour apporter plus d’esthétique et de propreté aux piquets mais surtout pour éviter de transporter des parasites sur le site de la clientèle. Nos piquets acacia sont fendus ou planés et une pointe carrée d’une surface comprise entre 1 et 1,5 cm² est réalisée gros bout.</p><p>
@@ -54,6 +58,9 @@
 
       'prod3_title' => "Piquets en pin",
       'prod3_text' => "<p>Nos piquets et poteaux pins sont planés et une pointe carrée d’une surface comprise entre 1 et 1,5 cm2 est réalisée gros bout.</p><p>La qualité de nos bois est conforme aux spécifications de la norme NF B 50-100-3 pour une classe d’emploi classe IV après avoir subi un traitement en autoclave suivant le procédé Bethell vide et pression 12 bars dans une station certifiée CTB B+.</p> <p>La proportion de bois de cœur présente dans nos pins est faible ce qui permet une pénétration et une rétention de produit de préservation optimum pour longévité accrue de nos piquets et poteaux.</p>",
+
+      'prod4_title' => "Bois de chauffe",
+      'prod4_text' => "<p>Notre bois de chauffage issu de notre production de piquets acacia est vendu sous forme de fagots de 2 ou 2,5 stères ou de bûches fendues de 30 cm.</p>",
 
       'form_title' => "Formulaire de contact",
 
@@ -127,6 +134,10 @@ All of our chestnut products are debarked to bring more aesthetics and cleanline
     'products_prod3_text' => "Our pins and poles pins are flat and a square tip of an area between 1 and 1.5 cm2 is made big end. The quality of our wood conforms to the specifications of standard NF B 50-100-3 for a class of class IV use after having undergone an autoclave treatment using the vacuum Bethell process and pressure of 12 bars in a CTB B + certified station.",
     'products_prod3_btn' => "Our pine products",
 
+    'products_prod4_title' => "Firewood",
+    'products_prod4_text' => "<p>Our firewood from our production of acacia stakes is sold in bundles of 2 or 2.5 steres or 30 cm split logs.</p>",
+    'products_prod4_btn' => "Our firewood products",
+
     'prod1_title' => "Chestnut stakes",
     'prod1_text' => "<p>Less durable in time than acacia, chestnut remains nevertheless a rot-proof species due to its presence of tannic acid.</p><p>
 All of our chestnut products are debarked to bring more aesthetics and cleanliness to the stakes but especially to avoid carrying parasites on the site of customers. Our acacia stakes are slotted or flat and a square tip with an area between 1 and 1.5 cm² is made big end.</p><p>
@@ -137,6 +148,9 @@ The slot operation allows the wood to retain its mechanical strength and limit d
 
     'prod3_title' => "Pine stakes",
     'prod3_text' => "<p>Our pins and poles pins are flat and a square tip of an area between 1 and 1.5 cm2 is made big end.</p><p>The quality of our wood conforms to the specifications of standard NF B 50-100-3 for a class of class IV use after having undergone an autoclave treatment using the vacuum Bethell process and pressure of 12 bars in a CTB B + certified station.</p> <p>The proportion of heartwood present in our pines is low which allows penetration and retention of optimum preservative for increased longevity of our stakes and poles.</p>",
+
+    'prod4_title' => "Firewood",
+    'prod4_text' => "<p>Our firewood from our production of acacia stakes is sold in bundles of 2 or 2.5 steres or 30 cm split logs.</p>",
 
     'form_title' => "Contact form",
 
@@ -211,6 +225,10 @@ The slot operation allows the wood to retain its mechanical strength and limit d
       'products_prod3_text' => "Nuestros pines y polos son planos y una punta cuadrada de un área entre 1 y 1,5 cm2 se hace grande. La calidad de nuestra madera cumple con las especificaciones de la norma NF B 50-100-3 para una clase de uso IV después de haber sido sometida a un tratamiento de autoclave utilizando el proceso de vacío Bethell y una presión de 12 bares en una estación certificada por CTB B +.",
       'products_prod3_btn' => "Nuestros productos de pino",
 
+      'products_prod4_title' => "Leña",
+      'products_prod4_text' => "<p>Nuestra leña proveniente de nuestra producción de estacas de acacia se vende en paquetes de 2 o 2.5 steres o troncos partidos de 30 cm.</p>",
+      'products_prod4_btn' => "Nuestros productos de leña.",
+
       'prod1_title' => "Clavijas de castaño",
       'prod1_text' => "<p>Menos duradera en el tiempo que la acacia, la castaña sigue siendo una especie a prueba de podredumbre debido a su presencia de ácido tánico.</p><p>
       Todos nuestros productos de castaño están marcados para aportar más estética y limpieza a las estacas, pero especialmente para evitar el transporte de parásitos en el sitio de los clientes. Nuestras estacas de acacia son ranuradas o planas y una punta cuadrada con un área entre 1 y 1,5 cm² se hace grande.</p><p>
@@ -221,6 +239,9 @@ The slot operation allows the wood to retain its mechanical strength and limit d
 
       'prod3_title' => "Estacas de pino",
       'prod3_text' => "<p>Nuestros pines y polos son planos y una punta cuadrada de un área entre 1 y 1,5 cm2 se hace grande.</p><p>La calidad de nuestra madera cumple con las especificaciones de la norma NF B 50-100-3 para una clase de uso IV después de haber sido sometida a un tratamiento de autoclave utilizando el proceso de vacío Bethell y una presión de 12 bares en una estación certificada por CTB B +.</p> <p>La proporción de duramen presente en nuestros pinos es baja, lo que permite la penetración y retención del conservante óptimo para aumentar la longevidad de nuestras estacas y postes.</p>",
+
+      'prod4_title' => "Leña",
+      'prod4_text' => "<p>Nuestra leña proveniente de nuestra producción de estacas de acacia se vende en paquetes de 2 o 2.5 steres o troncos partidos de 30 cm.</p>",
 
       'form_title' => "Formulario de contacto",
 
@@ -294,6 +315,10 @@ The slot operation allows the wood to retain its mechanical strength and limit d
       'products_prod3_text' => "Unsere Stifte und Stifte sind flach und eine quadratische Spitze mit einer Fläche zwischen 1 und 1,5 cm2 ist ein großes Ende. Die Qualität unseres Holzes entspricht den Anforderungen der Norm NF B 50-100-3 für eine Klasse IV-Klasse, nachdem es einer Autoklavenbehandlung gemäß dem Bethell-Prozess Vakuum und Druck von 12 bar in einer CTB B + -zertifizierten Station unterzogen wurde.",
       'products_prod3_btn' => "Unsere Kiefernprodukte",
 
+      'products_prod4_title' => "Brennholz",
+      'products_prod4_text' => "<p>Unser Brennholz aus unserer Akazienproduktion wird in Bündeln von 2 oder 2,5 Steres oder 30-cm-Spaltholz verkauft.</p>",
+      'products_prod4_btn' => "Unsere Brennholzprodukte",
+
       'prod1_title' => "Kastanienheringe",
       'prod1_text' => "<p>Mit der Zeit weniger haltbar als Akazien, bleibt die Kastanie aufgrund ihrer Anwesenheit von Gerbsäure dennoch eine verrottungssichere Art.</p><p>
       Alle unsere Kastanienprodukte werden entrindet, um den Pfählen mehr Ästhetik und Sauberkeit zu bieten, vor allem aber das Tragen von Parasiten auf dem Gelände der Kunden zu vermeiden. Unsere Akazienpfähle sind geschlitzt oder flach und eine eckige Spitze mit einer Fläche zwischen 1 und 1,5 cm² ist ein großes Ende.</p><p>
@@ -304,6 +329,9 @@ The slot operation allows the wood to retain its mechanical strength and limit d
 
       'prod3_title' => "Kieferpfähle",
       'prod3_text' => "<p>Unsere Stifte und Stifte sind flach und eine quadratische Spitze mit einer Fläche zwischen 1 und 1,5 cm2 ist ein großes Ende.</p><p>Die Qualität unseres Holzes entspricht den Anforderungen der Norm NF B 50-100-3 für eine Klasse IV-Verwendung, nachdem es einer Autoklavenbehandlung im Vakuum-Bethell-Verfahren und einem Druck von 12 bar in einer CTB B + -zertifizierten Station unterzogen wurde.</p> <p>Der Anteil an Kernholz in unseren Kiefern ist gering, so dass ein optimales Konservierungsmittel für eine höhere Lebensdauer unserer Pfähle und Stöcke durchdrungen und erhalten werden kann.</p>",
+
+      'prod4_title' => "Brennholz",
+      'prod4_text' => "<p>Unser Brennholz aus unserer Akazienproduktion wird in Bündeln von 2 oder 2,5 Steres oder 30-cm-Spaltholz verkauft.</p>",
 
       'form_title' => "Kontaktformular",
 
