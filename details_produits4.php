@@ -13,7 +13,7 @@
               <div class="panel-white">
                 <div class="header"><i class="fas fa-tree"></i></i> <?= $_SESSION['translate']['prod4_title'];?></div>
                 <div class="content">
-                <div class="row">
+                  <div class="row">
                     <div class="col-md-4">
                       <div class="visual">
                         <img src="ressources/produits/004.jpg">
@@ -39,7 +39,7 @@
                       <div class="description">
                         <?= $_SESSION['translate']['prod4_text'];?>
                       </div>
-                      <!-- <a id="show-desc"> <i class="fas fa-info-circle"></i> Voir la fiche détaillée </a> -->
+                      <a id="show-desc"> <i class="fas fa-info-circle"></i> Voir la fiche détaillée </a>
                     </div>
                   </div>
                   <div id="desc" class="col-md-12 hide" >

@@ -48,7 +48,7 @@ a:hover
   top: 50px;
 }
 
-a.prod_btn{
+.page-content .products a.prod_btn{
   color: #1E90FF;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -57,25 +57,34 @@ a.prod_btn{
 }
 
 
-a.prod_btn:hover{
+.page-content .products a.prod_btn:hover{
   font-weight: normal;
   text-decoration: underline;
 }
 
-.prod_img img{
+.page-content .products .prod_img img{
   max-width: 100%;
   margin-bottom: 10px;
 }
 
-.horiz_prod{
-  margin-bottom: 70px;
+.page-content .products .horiz_prod{
+  height: 100%;
 }
 
-.horiz_prod.last{
+.page-content .products .horiz_prod.last{
   margin-bottom: 0px;
 }
 
+.page-content .products .col-md-6 {
+  margin-bottom: 70px;
+}
+
+.page-content .products .btn {
+  margin-top: 20px;
+  text-align: center;
+  margin: 0 auto;
+}
 @media (min-width: 768px) {
-.horiz_prod.last{margin-bottom: 50px;}
+  .page-content .products .horiz_prod.last{margin-bottom: 50px;}
 
 }
