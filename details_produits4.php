@@ -18,7 +18,7 @@
                       <div class="visual">
                         <img src="ressources/produits/004.jpg">
                       </div>
-                      <div class="status">
+                      <!-- <div class="status">
                         Disponible
                       </div>
 
@@ -31,15 +31,15 @@
                           <img style="width:40px" class="imgIcon" src="" />
                             <i class="fas fa-arrows-alt-h icons"></i> 100 cm
                         </div>
-                    </div>
+                    </div> -->
 
                     </div>
                     <div class="col-md-8">
-                      <h2> > Description du produit</h2>
+                      <h2> <?= $_SESSION['translate']['table10'];?></h2>
                       <div class="description">
                         <?= $_SESSION['translate']['prod4_text'];?>
                       </div>
-                      <a id="show-desc"> <i class="fas fa-info-circle"></i> Voir la fiche détaillée </a>
+                      <a id="show-desc"> <i class="fas fa-info-circle"></i> <?= $_SESSION['translate']['table0'];?> </a>
                     </div>
                   </div>
                   <div id="desc" class="col-md-12 hide" >

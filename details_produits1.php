@@ -18,7 +18,7 @@
                       <div class="visual">
                         <img src="ressources/produits/001.jpg">
                       </div>
-                      <div class="status">
+                      <!-- <div class="status">
                         Disponible
                       </div>
 
@@ -31,38 +31,38 @@
                           <img style="width:40px" class="imgIcon" src="" />
                             <i class="fas fa-arrows-alt-h icons"></i> 100 cm
                         </div>
-                    </div>
+                    </div> -->
 
                     </div>
                     <div class="col-md-8">
-                      <h2> > Description du produit</h2>
+                      <h2> <?= $_SESSION['translate']['table10'];?></h2>
                       <div class="description">
                         <?= $_SESSION['translate']['prod1_text'];?>
                       </div>
-                      <a id="show-desc"> <i class="fas fa-info-circle"></i> Voir la fiche détaillée </a>
+                      <a id="show-desc"> <i class="fas fa-info-circle"></i> <?= $_SESSION['translate']['table0'];?> </a>
                     </div>
                   </div>
                   <div id="desc" class="col-md-12 hide" >
                     <!-- ------------ INSERT TABLE HERE ----------- -->
                     <div>
                       <hr />
-                      <h3 class="pour_table">Piquets châtaignier</h3>
+                      <h3 class="pour_table"><?= $_SESSION['translate']['table7'];?></h3>
 
                        <table>
                          <tr>
-                           <th colspan="2">Longueurs</th>
+                           <th colspan="2"><?= $_SESSION['translate']['table1'];?></th>
                            <th>2m 00</th>
                            <th>2m 30</th>
                            <th>2m 50</th>
                          </tr>
                          <tr>
-                           <td rowspan="2">Périmètres fin bout</td>
+                           <td rowspan="2"><?= $_SESSION['translate']['table7'];?></td>
                            <td>24/29 cm</td>
-                           <td colspan="3">130 µ / palette</td>
+                           <td colspan="3">130 <?= $_SESSION['translate']['table6'];?></td>
                          </tr>
                          <tr>
                            <td>28 cm et +</td>
-                           <td colspan="4">110 µ / palette</td>
+                           <td colspan="4">110 <?= $_SESSION['translate']['table6'];?></td>
                          </tr>
                        </table>
                   </div>

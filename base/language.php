@@ -37,7 +37,7 @@
       'products_prod1_btn' => "Nos produits chataigner",
 
       'products_prod2_title' => "Piquets accacia",
-      'products_prod2_text' => "L’ensemble de nos produits acacia sont écorcés pour apporter plus d’esthétique et de propreté aux piquets mais surtout pour éviter de transporter des parasites comme des insectes xylophages sur le site de la clientèle. Nos piquets acacia sont fendus ou planés et une pointe carrée d’une surface comprise entre 1 et 1,5 cm2 est réalisée gros bout.",
+      'products_prod2_text' => "L’ensemble de nos produits acacia sont écorcés pour apporter plus d’esthétique et de propreté aux piquets mais surtout pour éviter de transporter des parasites. Nos piquets acacia sont fendus ou planés et une pointe carrée d’une surface comprise entre 1 et 1,5 cm2 est réalisée gros bout.",
       'products_prod2_btn' => "Nos produits accacia",
 
       'products_prod3_title' => "Piquets pin",
@@ -54,7 +54,7 @@
       L’opération de fente permet au bois de conserver sa résistance mécanique et limiter les déformations de séchage.</p>",
 
       'prod2_title' => "Piquets en accacia",
-      'prod2_text' => "<p>L’ensemble de nos produits acacia sont écorcés pour apporter plus d’esthétique et de propreté aux piquets mais surtout pour éviter de transporter des parasites comme des insectes xylophages sur le site de la clientèle.</p> <p>Nos piquets acacia sont fendus ou planés et une pointe carrée d’une surface comprise entre 1 et 1,5 cm2 est réalisée gros bout.</p> <p>L’opération de fente permet au bois de conserver sa résistance mécanique et limiter les déformations de séchage.</p>",
+      'prod2_text' => "<p>L’ensemble de nos produits acacia sont écorcés pour apporter plus d’esthétique et de propreté aux piquets mais surtout pour éviter de transporter des parasites.</p> <p>Nos piquets acacia sont fendus ou planés et une pointe carrée d’une surface comprise entre 1 et 1,5 cm2 est réalisée gros bout.</p> <p>L’opération de fente permet au bois de conserver sa résistance mécanique et limiter les déformations de séchage.</p>",
 
       'prod3_title' => "Piquets en pin",
       'prod3_text' => "<p>Nos piquets et poteaux pins sont planés et une pointe carrée d’une surface comprise entre 1 et 1,5 cm2 est réalisée gros bout.</p><p>La qualité de nos bois est conforme aux spécifications de la norme NF B 50-100-3 pour une classe d’emploi classe IV après avoir subi un traitement en autoclave suivant le procédé Bethell vide et pression 12 bars dans une station certifiée CTB B+.</p> <p>La proportion de bois de cœur présente dans nos pins est faible ce qui permet une pénétration et une rétention de produit de préservation optimum pour longévité accrue de nos piquets et poteaux.</p>",
@@ -89,6 +89,19 @@
       'rgpd_title' => "Politique de confidentialité",
       'rgpd_text' => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc luctus blandit massa nec sodales. Vestibulum vehicula quam mi, non scelerisque elit congue ut. Morbi eu risus dolor. Curabitur fermentum, erat vel fringilla auctor, est leo vulputate arcu, et accumsan lacus augue sed augue. Aenean porttitor risus vel consequat fermentum. Fusce pharetra neque bibendum mauris suscipit, et scelerisque nisl bibendum. Phasellus venenatis ac augue sit amet pharetra. Aenean dapibus lorem non elementum bibendum. Nunc accumsan diam id ligula consequat tempor. Proin viverra mauris sed augue pharetra imperdiet. Nulla sed lectus ut leo lacinia feugiat non vel orci. Maecenas felis sapien, vehicula quis metus sit amet, rutrum ullamcorper lorem. Quisque placerat rutrum odio, id laoreet elit finibus sed. Praesent laoreet consequat diam, eu hendrerit velit semper in. Fusce ipsum dui, tempus eget lacus sed, volutpat consectetur nisi. Fusce non dapibus mauris.",
 
+      'table0' => 'Voir la fiche détaillée',
+      'table1' => 'Longueurs',
+      'table2' => 'Périmètres bout fin',
+      'table3' => 'Diamètres bout fin',
+      'table4' => 'Piquets fendus',
+      'table5' => 'Piquets ronds',
+      'table6' => 'pieces / palette',
+      'table7' => 'Piquets châtaignier',
+      'table8' => 'Piquets viticoles',
+      'table9' => 'Poteaux arboricoles',
+      'table10' => 'Description du produit'
+
+
     ),
     'english' => array(
 
@@ -100,7 +113,7 @@
     'menu_products_acacia' => 'Acacia',
     'menu_contact' => 'Contact',
     'society_aboutme_title' => "Company presentation",
-    'society_aboutme_desc' => "With 20 years of experience in the woods, I wanted to go back to basics by settling in the old family sawmill located closer to the forest resource. I specialized in the manufacture of pickets and logs of acacia, pines or chestnut. My flexible and flexible production tool makes it possible to produce stakes or rounded or round logs of different dimensions. Designed for growers, landscapers, arboriculturists, or just for individuals wanting to create a fence or a garden, stakes or logs B3D are a safe bet.",
+    'society_aboutme_desc' => "<p>With 20 years of experience in the woods, I wanted to go back to basics by settling in the old family sawmill located closer to the forest resource.</p><p>I specialized in the manufacture of pickets and logs of acacia, pines or chestnut.</p><p>My flexible and flexible production tool makes it possible to produce stakes or rounded or round logs of different dimensions.</p><p>Designed for growers, landscapers, arboriculturists, or just for individuals wanting to create a fence or a garden, stakes or logs B3D are a safe bet.</p>",
     'society_img1' => 'test1',
     'society_img2' => 'test3',
     'society_img3' => 'test3',
@@ -127,7 +140,7 @@ All of our chestnut products are debarked to bring more aesthetics and cleanline
     'products_prod1_btn' => "Our chestnut products",
 
     'products_prod2_title' => "Acacia stakes",
-    'products_prod2_text' => "All of our acacia products are debarked to bring more aesthetics and cleanliness to stakes but especially to avoid transporting parasites like xylophagous insects on the site of the clientele. Our acacia stakes are slotted or flat and a square tip with an area between 1 and 1.5 cm2 is made big end.",
+    'products_prod2_text' => "All of our acacia products are debarked to bring more aesthetics and cleanliness to stakes but especially to avoid transporting parasites. Our acacia stakes are slotted or flat and a square tip with an area between 1 and 1.5 cm2 is made big end.",
     'products_prod2_btn' => "Our acacia products",
 
     'products_prod3_title' => "Pine stakes",
@@ -144,7 +157,7 @@ All of our chestnut products are debarked to bring more aesthetics and cleanline
 The slot operation allows the wood to retain its mechanical strength and limit drying deformations.</p>",
 
     'prod2_title' => "Acacia stakes",
-    'prod2_text' => "<p>All of our acacia products are debarked to bring more aesthetics and cleanliness to stakes but especially to avoid transporting parasites like xylophagous insects on the site of the clientele.</p> <p>Our acacia stakes are slotted or flat and a square tip with an area between 1 and 1.5 cm2 is made big end.</p> <p>The slot operation allows the wood to retain its mechanical strength and limit drying deformations.</p>",
+    'prod2_text' => "<p>All of our acacia products are debarked to bring more aesthetics and cleanliness to stakes but especially to avoid transporting parasites.</p> <p>Our acacia stakes are slotted or flat and a square tip with an area between 1 and 1.5 cm2 is made big end.</p> <p>The slot operation allows the wood to retain its mechanical strength and limit drying deformations.</p>",
 
     'prod3_title' => "Pine stakes",
     'prod3_text' => "<p>Our pins and poles pins are flat and a square tip of an area between 1 and 1.5 cm2 is made big end.</p><p>The quality of our wood conforms to the specifications of standard NF B 50-100-3 for a class of class IV use after having undergone an autoclave treatment using the vacuum Bethell process and pressure of 12 bars in a CTB B + certified station.</p> <p>The proportion of heartwood present in our pines is low which allows penetration and retention of optimum preservative for increased longevity of our stakes and poles.</p>",
@@ -179,6 +192,18 @@ The slot operation allows the wood to retain its mechanical strength and limit d
     'rgpd_title' => "Privacy policy",
     'rgpd_text' => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc luctus blandit massa nec sodales. Vestibulum vehicula quam mi, non scelerisque elit congue ut. Morbi eu risus dolor. Curabitur fermentum, erat vel fringilla auctor, est leo vulputate arcu, et accumsan lacus augue sed augue. Aenean porttitor risus vel consequat fermentum. Fusce pharetra neque bibendum mauris suscipit, et scelerisque nisl bibendum. Phasellus venenatis ac augue sit amet pharetra. Aenean dapibus lorem non elementum bibendum. Nunc accumsan diam id ligula consequat tempor. Proin viverra mauris sed augue pharetra imperdiet. Nulla sed lectus ut leo lacinia feugiat non vel orci. Maecenas felis sapien, vehicula quis metus sit amet, rutrum ullamcorper lorem. Quisque placerat rutrum odio, id laoreet elit finibus sed. Praesent laoreet consequat diam, eu hendrerit velit semper in. Fusce ipsum dui, tempus eget lacus sed, volutpat consectetur nisi. Fusce non dapibus mauris.",
 
+    'table0' => 'See the detailed sheet',
+    'table1' => 'Lengths',
+    'table2' => 'Perimeters end end',
+    'table3' => 'Fine end diameters',
+    'table4' => 'Split stakes',
+    'table5' => 'Round stakes',
+    'table6' => 'pieces / pallet',
+    'table7' => 'Chestnut stakes',
+    'table8' => 'Wine pickets',
+    'table9' => 'Tree poles',
+    'table10' => 'Product Description'
+
     ),
 
     'spanish' => array(
@@ -191,7 +216,7 @@ The slot operation allows the wood to retain its mechanical strength and limit d
       'menu_products_acacia' => 'Acacia',
       'menu_contact' => 'Contactar',
       'society_aboutme_title' => "Presentación de la empresa",
-      'society_aboutme_desc' => "Con 20 años de experiencia en el bosque, quería volver a lo básico al instalarme en el antiguo aserradero familiar ubicado más cerca del recurso forestal. Me especialicé en la fabricación de piquetes y troncos de acacia, pinos o castaños. Mi herramienta de producción flexible y flexible hace posible producir estacas o troncos redondeados o redondos de diferentes dimensiones. Diseñados para cultivadores, jardineros, arboricultores o solo para personas que desean crear una cerca o un jardín, estacas o troncos B3D son una apuesta segura.",
+      'society_aboutme_desc' => "<p>Con 20 años de experiencia en el bosque, quería volver a lo básico al instalarme en el antiguo aserradero familiar ubicado más cerca del recurso forestal.</p><p>Me especialicé en la fabricación de piquetes y troncos de acacia, pinos o castaños.</p><p>Mi herramienta de producción flexible y flexible hace posible producir estacas o troncos redondeados o redondos de diferentes dimensiones.</p><p>Diseñados para cultivadores, jardineros, arboricultores o solo para personas que desean crear una cerca o un jardín, estacas o troncos B3D son una apuesta segura.</p>",
       'society_img1' => 'test1',
       'society_img2' => 'test3',
       'society_img3' => 'test3',
@@ -218,7 +243,7 @@ The slot operation allows the wood to retain its mechanical strength and limit d
       'products_prod1_btn' => "Nuestros productos chataigner",
 
       'products_prod2_title' => "Estacas de acacia",
-      'products_prod2_text' => "Todos nuestros productos de acacia están marcados para aportar más estética y limpieza a las estacas, pero especialmente para evitar el transporte de parásitos como insectos xilófagos en el sitio de la clientela. Nuestras estacas de acacia son ranuradas o planas y una punta cuadrada con un área de entre 1 y 1,5 cm2 se hace de extremo grande.",
+      'products_prod2_text' => "Todos nuestros productos de acacia están marcados para aportar más estética y limpieza a las estacas, pero especialmente para evitar el transporte de parásitos. Nuestras estacas de acacia son ranuradas o planas y una punta cuadrada con un área de entre 1 y 1,5 cm2 se hace de extremo grande.",
       'products_prod2_btn' => "Nuestros productos de acacia",
 
       'products_prod3_title' => "Estacas de pino",
@@ -235,7 +260,7 @@ The slot operation allows the wood to retain its mechanical strength and limit d
       La operación de la ranura permite que la madera retenga su resistencia mecánica y limite las deformaciones de secado.</p>",
 
       'prod2_title' => "Estacas de acacia",
-      'prod2_text' => "<p>Todos nuestros productos de acacia están marcados para aportar más estética y limpieza a las estacas, pero especialmente para evitar el transporte de parásitos como insectos xilófagos en el sitio de la clientela.</p> <p>Nuestras estacas de acacia son ranuradas o planas y una punta cuadrada con un área de entre 1 y 1,5 cm2 se hace de extremo grande.</p> <p>La operación de la ranura permite que la madera retenga su resistencia mecánica y limite las deformaciones de secado.</p>",
+      'prod2_text' => "<p>Todos nuestros productos de acacia están marcados para aportar más estética y limpieza a las estacas, pero especialmente para evitar el transporte de parásitos.</p> <p>Nuestras estacas de acacia son ranuradas o planas y una punta cuadrada con un área de entre 1 y 1,5 cm2 se hace de extremo grande.</p> <p>La operación de la ranura permite que la madera retenga su resistencia mecánica y limite las deformaciones de secado.</p>",
 
       'prod3_title' => "Estacas de pino",
       'prod3_text' => "<p>Nuestros pines y polos son planos y una punta cuadrada de un área entre 1 y 1,5 cm2 se hace grande.</p><p>La calidad de nuestra madera cumple con las especificaciones de la norma NF B 50-100-3 para una clase de uso IV después de haber sido sometida a un tratamiento de autoclave utilizando el proceso de vacío Bethell y una presión de 12 bares en una estación certificada por CTB B +.</p> <p>La proporción de duramen presente en nuestros pinos es baja, lo que permite la penetración y retención del conservante óptimo para aumentar la longevidad de nuestras estacas y postes.</p>",
@@ -270,6 +295,18 @@ The slot operation allows the wood to retain its mechanical strength and limit d
       'rgpd_title' => "Política de confidencialidad",
       'rgpd_text' => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc luctus blandit massa nec sodales. Vestibulum vehicula quam mi, non scelerisque elit congue ut. Morbi eu risus dolor. Curabitur fermentum, erat vel fringilla auctor, est leo vulputate arcu, et accumsan lacus augue sed augue. Aenean porttitor risus vel consequat fermentum. Fusce pharetra neque bibendum mauris suscipit, et scelerisque nisl bibendum. Phasellus venenatis ac augue sit amet pharetra. Aenean dapibus lorem non elementum bibendum. Nunc accumsan diam id ligula consequat tempor. Proin viverra mauris sed augue pharetra imperdiet. Nulla sed lectus ut leo lacinia feugiat non vel orci. Maecenas felis sapien, vehicula quis metus sit amet, rutrum ullamcorper lorem. Quisque placerat rutrum odio, id laoreet elit finibus sed. Praesent laoreet consequat diam, eu hendrerit velit semper in. Fusce ipsum dui, tempus eget lacus sed, volutpat consectetur nisi. Fusce non dapibus mauris.",
 
+      'table0' => 'Vea la hoja detallada',
+      'table1' => 'Longitudes',
+      'table2' => 'Perímetros extremo final',
+      'table3' => 'Diámetros finos finos',
+      'table4' => 'Apuestas divididas',
+      'table5' => 'Estacas redondas',
+      'table6' => 'piezas / palet',
+      'table7' => 'Estacas de castaño',
+      'table8' => 'Piquetes de vino',
+      'table9' => 'Postes de arbol',
+      'table10' => 'Descripción de producto'
+
     ),
 
     'germany' => array(
@@ -281,7 +318,7 @@ The slot operation allows the wood to retain its mechanical strength and limit d
       'menu_products_acacia' => 'Akazie',
       'menu_contact' => 'Kontakt',
       'society_aboutme_title' => "Präsentation des Unternehmens",
-      'society_aboutme_desc' => "Mit 20 Jahren Erfahrung in den Wäldern wollte ich in das alte Familiensägewerk zurückkehren, das sich näher an der Waldressource befindet. Ich habe mich auf die Herstellung von Streikposten und Protokollen aus Akazien, Kiefern oder Kastanien spezialisiert. Mein flexibles und flexibles Produktionswerkzeug ermöglicht das Herstellen von Pfählen oder Rund- oder Rundholz mit unterschiedlichen Abmessungen. Entworfen für Züchter, Landschaftsgärtner, Baumzüchter oder nur für Einzelpersonen, die einen Zaun oder einen Garten anlegen möchten. Pfähle oder Baumstämme B3D sind eine sichere Wahl.",
+      'society_aboutme_desc' => "<p>Mit 20 Jahren Erfahrung in den Wäldern wollte ich in das alte Familiensägewerk zurückkehren, das sich näher an der Waldressource befindet.</p><p>Ich habe mich auf die Herstellung von Streikposten und Protokollen aus Akazien, Kiefern oder Kastanien spezialisiert.</p><p>Mein flexibles und flexibles Produktionswerkzeug ermöglicht das Herstellen von Pfählen oder Rund- oder Rundholz mit unterschiedlichen Abmessungen.</p><p>Entworfen für Züchter, Landschaftsgärtner, Baumzüchter oder nur für Einzelpersonen, die einen Zaun oder einen Garten anlegen möchten.</p><p>Pfähle oder Baumstämme B3D sind eine sichere Wahl.</p>",
       'society_img1' => 'test1',
       'society_img2' => 'test3',
       'society_img3' => 'test3',
@@ -308,7 +345,7 @@ The slot operation allows the wood to retain its mechanical strength and limit d
       'products_prod1_btn' => "Unsere produkte chataigner",
 
       'products_prod2_title' => "Akazienpfähle",
-      'products_prod2_text' => "Alle unsere Akazienprodukte werden entrindet, um mehr Ästhetik und Sauberkeit zu erreichen, insbesondere jedoch den Transport von Parasiten wie xylophagous Insekten auf dem Gelände der Kundschaft zu vermeiden. Unsere Akazienpfähle sind geschlitzt oder flach und eine eckige Spitze mit einer Fläche zwischen 1 und 1,5 cm2 ist ein großes Ende.",
+      'products_prod2_text' => "Alle unsere Akazienprodukte werden entrindet, um mehr Ästhetik und Sauberkeit zu erreichen, insbesondere jedoch den Transport von Parasiten. Unsere Akazienpfähle sind geschlitzt oder flach und eine eckige Spitze mit einer Fläche zwischen 1 und 1,5 cm2 ist ein großes Ende.",
       'products_prod2_btn' => "Unsere Akazienprodukte",
 
       'products_prod3_title' => "Unsere Kiefernprodukte",
@@ -325,7 +362,7 @@ The slot operation allows the wood to retain its mechanical strength and limit d
       Durch den Schlitzbetrieb behält das Holz seine mechanische Festigkeit und begrenzt die Verformungen beim Trocknen.</p>",
 
       'prod2_title' => "Akazienpfähle",
-      'prod2_text' => "<p>Alle unsere Akazienprodukte werden entrindet, um mehr Ästhetik und Sauberkeit zu erreichen, insbesondere jedoch den Transport von Parasiten wie xylophagous Insekten auf dem Gelände der Kundschaft zu vermeiden.</p> <p>Unsere Akazienpfähle sind geschlitzt oder flach und eine eckige Spitze mit einer Fläche zwischen 1 und 1,5 cm2 ist ein großes Ende.</p> <p>Durch den Schlitzbetrieb behält das Holz seine mechanische Festigkeit und begrenzt die Verformungen beim Trocknen.</p>",
+      'prod2_text' => "<p>Alle unsere Akazienprodukte werden entrindet, um mehr Ästhetik und Sauberkeit zu erreichen, insbesondere jedoch den Transport von Parasiten.</p> <p>Unsere Akazienpfähle sind geschlitzt oder flach und eine eckige Spitze mit einer Fläche zwischen 1 und 1,5 cm2 ist ein großes Ende.</p> <p>Durch den Schlitzbetrieb behält das Holz seine mechanische Festigkeit und begrenzt die Verformungen beim Trocknen.</p>",
 
       'prod3_title' => "Kieferpfähle",
       'prod3_text' => "<p>Unsere Stifte und Stifte sind flach und eine quadratische Spitze mit einer Fläche zwischen 1 und 1,5 cm2 ist ein großes Ende.</p><p>Die Qualität unseres Holzes entspricht den Anforderungen der Norm NF B 50-100-3 für eine Klasse IV-Verwendung, nachdem es einer Autoklavenbehandlung im Vakuum-Bethell-Verfahren und einem Druck von 12 bar in einer CTB B + -zertifizierten Station unterzogen wurde.</p> <p>Der Anteil an Kernholz in unseren Kiefern ist gering, so dass ein optimales Konservierungsmittel für eine höhere Lebensdauer unserer Pfähle und Stöcke durchdrungen und erhalten werden kann.</p>",
@@ -359,6 +396,19 @@ The slot operation allows the wood to retain its mechanical strength and limit d
 
       'rgpd_title' => "Datenschutzrichtlinie",
       'rgpd_text' => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc luctus blandit massa nec sodales. Vestibulum vehicula quam mi, non scelerisque elit congue ut. Morbi eu risus dolor. Curabitur fermentum, erat vel fringilla auctor, est leo vulputate arcu, et accumsan lacus augue sed augue. Aenean porttitor risus vel consequat fermentum. Fusce pharetra neque bibendum mauris suscipit, et scelerisque nisl bibendum. Phasellus venenatis ac augue sit amet pharetra. Aenean dapibus lorem non elementum bibendum. Nunc accumsan diam id ligula consequat tempor. Proin viverra mauris sed augue pharetra imperdiet. Nulla sed lectus ut leo lacinia feugiat non vel orci. Maecenas felis sapien, vehicula quis metus sit amet, rutrum ullamcorper lorem. Quisque placerat rutrum odio, id laoreet elit finibus sed. Praesent laoreet consequat diam, eu hendrerit velit semper in. Fusce ipsum dui, tempus eget lacus sed, volutpat consectetur nisi. Fusce non dapibus mauris.",
+
+
+      'table0' => 'Siehe ausführliches Datenblatt',
+      'table1' => 'Längen',
+      'table2' => 'Umfang Ende',
+      'table3' => 'Feine Enddurchmesser',
+      'table4' => 'Split-Einsätze',
+      'table5' => 'Runde Einsätze',
+      'table6' => 'Stücke / Palette',
+      'table7' => 'Kastanienpfähle',
+      'table8' => 'Weinpickets',
+      'table9' => 'Baumpfosten',
+      'table10' => 'Produktbeschreibung'
 
     ),
 
