@@ -20,7 +20,7 @@
 
           <div class="row justify-content-center products">
 
-            <div class="col-lg-12 col-md-12">
+            <div class="col-lg-6 col-md-6">
               <div class="horiz_prod">
               <div class="panel-white mini horiz_prod">
                 <div class="header"><?= $_SESSION['translate']['products_prod1_title'];?></div>
@@ -40,7 +40,7 @@
             </div>
             <!--=================================-->
 
-            <div class="col-lg-12 col-md-12">
+            <div class="col-lg-6 col-md-6">
               <div class="horiz_prod">
               <div class="panel-white mini horiz_prod">
                 <div class="header"><?= $_SESSION['translate']['products_prod2_title'];?></div>
@@ -57,6 +57,26 @@
                 </div>
               </div>
             </div>
+            </div>
+            <!--=================================-->
+
+            <div class="col-lg-12 col-md-12">
+<div class="horiz_prod last">
+              <div class="panel-white mini ">
+                <div class="header"><?= $_SESSION['translate']['products_prod3_title'];?></div>
+                <div class="content ">
+                  <div class="row">
+                    <div class="col-lg-4 col-md-4 prod_img">
+                      <img src="ressources/produits/003.jpg">
+                    </div>
+                    <div class="col-lg-8 col-md-8 text-cont">
+                      <?= $_SESSION['translate']['products_prod3_text'];?>
+                    <a href="details_produits3.php" class="prod_btn"><i class="fas fa-info-circle"></i> <?= $_SESSION['translate']['products_prod3_btn'];?></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+</div>
             </div>
             <!--=================================-->
 
