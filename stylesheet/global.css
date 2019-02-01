@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Acme');
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
-
+.hide {
+  display: none;
+}
 html
 {
   max-height: 100%;
@@ -26,7 +28,7 @@ h3.pour_table{
 body{
   margin: 0;
   min-height: 100%;
-  font-size: 1em !important;
+  font-size: 1.2em !important;
   overflow-x: hidden;
   background-image: url('../ressources/society/bg.jpg');
   background-repeat: repeat;
@@ -105,6 +107,7 @@ body{
 .panel-white > .content{
   position: relative;
   top: -40px;
+  margin-bottom: 40px;
   padding: 10px;
 }
 /*--------footer-----------*/

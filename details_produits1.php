@@ -13,7 +13,7 @@
               <div class="panel-white">
                 <div class="header"><i class="fas fa-tree"></i></i> <?= $_SESSION['translate']['prod1_title'];?></div>
                 <div class="content">
-                  <div class="row">
+                <div class="row">
                     <div class="col-md-4">
                       <div class="visual">
                         <img src="ressources/produits/001.jpg">
@@ -21,18 +21,32 @@
                       <div class="status">
                         Disponible
                       </div>
+
+                    <div class="info">
+                        <div class="item">
+                          <img style="width:40px" class="imgIcon" src="" />
+                          <span class="icons" style="font-size: 40px;"> ø </span> 10 cm
+                      </div>
+                        <div class="item">
+                          <img style="width:40px" class="imgIcon" src="" />
+                            <i class="fas fa-arrows-alt-h icons"></i> 100 cm
+                        </div>
+                    </div>
+
                     </div>
                     <div class="col-md-8">
-                      <div class="category">Description du produit</div>
+                      <h2> > Description du produit</h2>
                       <div class="description">
                         <?= $_SESSION['translate']['prod1_text'];?>
                       </div>
+                      <a id="show-desc"> <i class="fas fa-info-circle"></i> Voir la fiche détaillée </a>
                     </div>
                   </div>
-                  <div class="col-md-12" >
+                  <div id="desc" class="col-md-12 hide" >
                     <!-- ------------ INSERT TABLE HERE ----------- -->
-
-<h3 class="pour_table">Piquets châtaignier</h3>
+                    <div>
+                      <hr />
+                      <h3 class="pour_table">Piquets châtaignier</h3>
 
                        <table>
                          <tr>
@@ -64,7 +78,11 @@
       <?php include('./base/footer.php');?>
       <script>
            var rellax = new Rellax('body', {
+
   });
+      $('#show-desc').on('click', function(){
+          $("#desc").slideToggle("hide");
+        })
       </script>
     </body>
 </html>

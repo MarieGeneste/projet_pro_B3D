@@ -18,8 +18,8 @@
     <body>
       <div class="container">
         <div class="logo">
-          <img src="ressources/logo.png" alt="Logo">
-          <!-- <div class="anim-logo"></div> -->
+          
+          <div class="anim-logo"></div>
 
         </div>
         <div class="menu">

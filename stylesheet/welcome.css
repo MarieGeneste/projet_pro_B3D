@@ -92,48 +92,40 @@ body {
   content: '';
   position: relative;
   display: block;
-  background: url(../images/bottom.png);
+  background: url(../images/001.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  min-width: 180px;
-  min-height: 180px;
-  left: -25px;
-  z-index: -15;
-  top: 75px;
-  opacity: 0.8;
-  -webkit-animation: rotating 5s linear infinite;
-  -moz-animation: rotating 5s linear infinite;
-  -ms-animation: rotating 5s linear infinite;
-  -o-animation: rotating 5s linear infinite;
-  animation: rotating 5s linear infinite;
+  z-index: 20;
+  min-width: 250px;
+  min-height: 250px;
+  opacity: 1;
 }
 .anim-logo {
-  background-image: url('../images/top.png');
+  background-image: url('../images/003.png');
   background-repeat: no-repeat;
   background-size: contain;
   width: 250px;
   height: 250px;
+  display: inline-block;
 }
 .anim-logo::after {
   content: '';
   position: relative;
   display: block;
-  background: url(../images/bottom.png);
+  background: url(../images/002.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  min-width: 180px;
-  min-height: 180px;
-  left: -25px;
-  z-index: -15;
-  top: 75px;
-  opacity: 0.8;
-  -webkit-animation: rotating 5s linear infinite;
-  -moz-animation: rotating 5s linear infinite;
-  -ms-animation: rotating 5s linear infinite;
-  -o-animation: rotating 5s linear infinite;
-  animation: rotating 5s linear infinite;
+  min-width: 250px;
+  min-height: 250px;
+  z-index: 10;
+  top: -245px;
+  -webkit-animation: rotating 8s linear infinite;
+  -moz-animation: rotating 8s linear infinite;
+  -ms-animation: rotating 8s linear infinite;
+  -o-animation: rotating 8s linear infinite;
+  animation: rotating 8s linear infinite;
 }
 
 
