@@ -18,31 +18,33 @@
           </div>
         </div>
 
-          <div class="row justify-content-center products">
+          <div class="row products">
 
-            <div class="col-lg-6 col-md-6">
+            <div class="col-md-6">
               <div class="horiz_prod">
-              <div class="panel-white mini horiz_prod">
-                <div class="header"><?= $_SESSION['translate']['products_prod1_title'];?></div>
-                <div class="content ">
-                  <div class="row">
-                    <div class="col-lg-12 col-md-12 prod_img">
-                      <img src="ressources/produits/001.jpg">
-                    </div>
-                    <div class="col-lg-12 col-md-12 text-cont">
-                      <?= $_SESSION['translate']['products_prod1_text'];?>
-                      <a href="details_produits1.php" class="prod_btn"><i class="fas fa-info-circle"></i> <?= $_SESSION['translate']['products_prod1_btn'];?></a>
+                <div class="panel-white mini">
+                  <div class="header"><?= $_SESSION['translate']['products_prod1_title'];?></div>
+                  <div class="content ">
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 prod_img">
+                        <img src="ressources/produits/001.jpg">
+                      </div>
+                      <div class="col-lg-12 col-md-12 text-cont">
+                        <?= $_SESSION['translate']['products_prod1_text'];?>
+                      </div>
+                      <div class="col-md-12">
+                        <a href="details_produits1.php" class="btn btn-danger"><?= $_SESSION['translate']['products_prod1_btn'];?></a>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            </div>
             <!--=================================-->
 
-            <div class="col-lg-6 col-md-6">
+            <div class="col-md-6">
               <div class="horiz_prod">
-              <div class="panel-white mini horiz_prod">
+              <div class="panel-white mini">
                 <div class="header"><?= $_SESSION['translate']['products_prod2_title'];?></div>
                 <div class="content ">
                   <div class="row">
@@ -51,7 +53,9 @@
                     </div>
                     <div class="col-lg-12 col-md-12 text-cont">
                       <?= $_SESSION['translate']['products_prod2_text'];?>
-                      <a href="details_produits2.php" class="prod_btn"><i class="fas fa-info-circle"></i> <?= $_SESSION['translate']['products_prod2_btn'];?></a>
+                    </div>
+                    <div class="col-md-12">
+                      <a href="details_produits2.php" class="btn btn-danger"><?= $_SESSION['translate']['products_prod2_btn'];?></a>
                     </div>
                   </div>
                 </div>
@@ -61,7 +65,7 @@
             <!--=================================-->
 
             <div class="col-lg-6 col-md-6">
-<div class="horiz_prod">
+            <div class="horiz_prod">
               <div class="panel-white mini ">
                 <div class="header"><?= $_SESSION['translate']['products_prod3_title'];?></div>
                 <div class="content ">
@@ -71,12 +75,15 @@
                     </div>
                     <div class="col-lg-12 col-md-12 text-cont">
                       <?= $_SESSION['translate']['products_prod3_text'];?>
-                    <a href="details_produits3.php" class="prod_btn"><i class="fas fa-info-circle"></i> <?= $_SESSION['translate']['products_prod3_btn'];?></a>
                     </div>
+                    <br/><br/>
+                      <div class="col-md-12">
+                        <a href="details_produits3.php" class="btn btn-danger"><?= $_SESSION['translate']['products_prod3_btn'];?></a>
+                      </div>
                   </div>
                 </div>
               </div>
-</div>
+              </div>
             </div>
             <!--=================================-->
 
@@ -91,7 +98,11 @@
                     </div>
                     <div class="col-lg-12 col-md-12 text-cont">
                       <?= $_SESSION['translate']['products_prod4_text'];?>
-                    <a href="details_produits4.php" class="prod_btn"><i class="fas fa-info-circle"></i> <?= $_SESSION['translate']['products_prod4_btn'];?></a>
+                    </div>
+                    <br/><br/>
+                    <div class="col-md-12">
+                      
+                      <a href="details_produits4.php" class="btn btn-danger"><?= $_SESSION['translate']['products_prod4_btn'];?></a>
                     </div>
                   </div>
                 </div>

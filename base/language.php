@@ -364,10 +364,6 @@ The slot operation allows the wood to retain its mechanical strength and limit d
 
   );
 
-  if(!empty($_SESSION['lang'])) {
-    $translate['translate'] = $_SESSION['lang'];
-  }
-
   if(empty($_SESSION['lang']) && (!isset($_GET['lang']))){
     $_SESSION['translate'] = $translate['french'];
     $_SESSION['lang'] = 'Français';
